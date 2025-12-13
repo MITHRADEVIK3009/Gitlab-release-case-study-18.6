@@ -1,0 +1,1505 @@
+Feedback issue for new UI Closed Issue created 1 month ago by Michelle Gill What we need feedback on GitLab is introducing two major changes that we need your input on:
+
+New panel-based interface - Panel-based layout
+Persistent GitLab Duo panel - GitLab Duo is always available in far right panel for users with access
+
+Focus Areas:
+
+Overall feel and workflow impact (not just individual interactions)
+What works well vs. what feels broken or frustrating
+Visual issues, layout problems, missing functionality
+How well the GitLab Duo panel enables your workflow
+
+Feedback template
+text
+text> Your role:
+>
+> Main workflows:
+
+**Overall Assessment**
+
+- Would you prefer the new UI over current GitLab? Why?
+  - [ ] Yes
+  - [ ] No
+  - [ ] Unsure
+
+**What's Working Well**
+
+* _Brief bullet points_
+
+**What Needs Fixing**
+
+* _Include priority: `HIGH` (blocks work) / `MEDIUM` (annoying) / `LOW` (polish)_
+
+**GitLab Duo panel (Duo Agent Platform)**
+
+- Do you use the GitLab Duo panel?
+  - [ ] Frequently
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Never
+- If not using it, why?
+- How well does it integrate into with your workflow?
+
+**Any other observations, missing features, workflow improvements, etc.**
+A note to the wider community Thank you everyone for sharing your thoughts and experiences with us. I have personally read every message in this issue, and I genuinely appreciate the time you've taken to provide detailed feedback about the navigation changes. I want to acknowledge that this transition has been challenging for some of you, and your concerns are valid. While the data showed a low opt-out rate (<1%), I recognize that metrics don't capture the full picture of how changes impact individual workflows and preferences. For those who preferred the previous UI, I understand if this wasn't the outcome you hoped for. The new UI is now the standard experience moving forward. This decision wasn't made lightly, and maintaining two parallel UI structures long-term would significantly impact our ability to iterate and improve GitLab for everyone. That said, we're committed to addressing the remaining bugs and continuing to refine the experience based on your feedback. Many of the ideas shared here are valuable, and we're actively reviewing them for future iterations. Your input directly shapes how we prioritize improvements, so please continue sharing specific pain points or suggestions. Thank you for your patience and for being part of this community Edited 1 day ago by Austin Regnery Attributes Status Complete Assignees None Labels CEO InterestCategory:Design SystemCustomer InterestUXautomation:mldevopsfoundationsfrontendgroupdesign systemsectionfoundationstypeignore Parent None Weight None Milestone None Iteration None Dates Start: None Due: None Health status None Subscription None Time tracking No estimate or time spent 209 Participants Linked items1 Related to
+
+Issue   Mermaid charts are rendered too small in PDF view in wikis   New   #578972Backlog   Category:WikiUXautomation:mlbuguxdevopsplanfrontendgroupknowledgepriority4sectiondevseverity4typebug
+
+Development16
+
+Refactor text styles in Rapid Diffs   !21468418.7   Merged
+581191-Fix in user_menu.vue (Delete CSS class)   !21385418.7   Merged
+Fix Infinite scroller not loading commits   !21276418.6   Merged
+Fix offset drag and drop in panelled design   !21258018.7   Merged
+Fix keyboard shortcuts with icon-only sidebar   !21237518.6   Merged
+Adjust overflow for panel container in print styles   !21228618.6   Merged
+Update "Welcome to new UI" modal   !21055718.6   Merged
+User avatar: Add link to profile   !21030818.6   Merged
+Correct dimensions for fixed container in the new UI   !20848818.6   Merged
+Fixes scrolling to the correct job line   !20780818.5   Merged
+Fix bottom of sidebar scrolling in job details and wiki   !20766018.5   Merged
+Fix top bar in job log viewer when panels are enabled   !20540218.5   Merged
+Change project name word break property   !17714617.9   Merged
+Break line for long project names   !17392817.7   Merged
+Draft: Stack pipelines and jobs tables in "md" and below sizes   !212262
+Draft: Move work item layout shift to sm breakpoint   !21222918.7
+
+Activity
+
+Michelle Gill set status to New 1 month ago
+🤖 GitLab Bot 🤖 changed the description 1 month ago ·
+🤖 GitLab Bot 🤖@gitlab-bot1 month ago   Maintainer   We've attempted to automatically add labels to help route this issue to the right team. Further tweak labels using our community issue management UI.   Here's what our AI has to say:   This is a feedback collection issue for a new UI implementation featuring a panel-based interface and persistent AI panel. The issue is clearly related to design system changes and user experience. The frontend and UX areas are highly relevant as this involves interface layout changes. While the AI panel component suggests some connection to the Duo Chat group, the primary focus is on the overall UI/UX redesign and layout system, making Design System the most appropriate categorization.   We believe everyone can contribute and welcome you to work on this proposed change, feature or bug fix. If you are a new community contributor, start your onboarding journey and get to know our community.   Team members, please indicate any mistakes by adding /label ~"automation:ml wrong".   View AI response JSON
+
+     {     "category": {       "existing": null,       "deduced": "Category:Design System",       "confidence": 85     },     "group": {       "existing": null,       "deduced": "group::design system",       "confidence": 85     },     "type": {       "existing": null,       "deduced": "type::feature",       "confidence": 90     },     "subtype": {       "existing": null,       "deduced": "feature::enhancement",       "confidence": 80     },     "areas": {       "existing": [],       "deduced": [         "frontend",         "UX"       ],       "confidence": 95     },     "note": "This is a feedback collection issue for a new UI implementation featuring a panel-based interface and persistent AI panel. The issue is clearly related to design system changes and user experience. The frontend and UX areas are highly relevant as this involves interface layout changes. While the AI panel component suggests some connection to the Duo Chat group, the primary focus is on the overall UI/UX redesign and layout system, making Design System the most appropriate categorization."   }   
+  This message was generated automatically using AI. We strive for accuracy and quality, but please note the information may not be error-free.
+
+🤖 GitLab Bot 🤖 added Category:Design System UX automation:ml featureenhancement frontend groupdesign system typefeature labels 1 month ago
+🤖 GitLab Bot 🤖 changed the description 1 month ago ·
+🤖 GitLab Bot 🤖 added devopsfoundations sectionfoundations labels 1 month ago
+Marcin Sedlak-Jakubowski changed the description 1 month ago ·
+Janel Willms changed the description 1 month ago ·
+Djordje Micovic@dmicovic1 month ago   Developer   Your role: Senior Manager, Marketing Analytics   Main workflows: MRs, Issue collaboration   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * I do like how Duo Agent Platform looks more cohesive in the UI instead of an afterthought.
+  What Needs Fixing
+  * Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish)
+  * MEDIUM - I would really prefer if we still had the issue count, MR count and To Do list in the left side nav bar where it used to be. When I am not using the Duo Agent platform I find myself thinking about how do I get to my Issues now and it being in the top right corner doesn't seem intuitive to me compared to the old location in the left menu bar.
+  Move this :       to       without the search bar - I like the new search bar.   AI panel (Duo Agent Platform)
+  * Do you use the AI panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.   Edited 1 month ago by Djordje Micovic
+
+Bill Staples added CEO Interest label 1 month ago
+Patrick Harris@pharris31 month ago   Your role: DevOps at Telesat   Main workflows: MRs, issue response, pipeline hotfixes and features   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  *  
+  What Needs Fixing
+  * MEDIUM Having the profile and task buttons on the right seems unintuitive to me, I'd prefer them to remain on the left side sidebar with other interaction elements
+  * MEDIUM The search bar at the top of the whole page adds unnecessary whitespace, I prefer to have it integrated on the left sidebar leaving more room for my code or other screen elements.
+  AI panel (Duo Agent Platform)
+  * Do you use the AI panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? My org does not have Duo enabled
+  * How well does it integrate into with your workflow? N/A
+  - Last reply byAndrew Merrow3 weeks ago
+
+🤖 GitLab Bot 🤖 changed the description 1 month ago ·
+John Raleigh@john.raleigh1 month ago   Brought to you by the same kind of UI experts who thought a big TV screen in the middle of your car's dashboard would be a good idea.
+John Raleigh@john.raleigh1 month ago   More clutter probably won't increase productivity.
+
+  * Last reply byDasha Adushkina1 month ago
+
+Mason Manuel@mason-amplify1 month ago   Your role: Product Manager   Main workflows: Issue collaboration, Planning, Monitoring   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * Duo being more integrated works well and makes me feel more inclined to use it over third-party AI LLMs
+  What Needs Fixing
+  * LOW / HIGH Feels like the break point for the issues drawer is not optimised. Previously, it would have the details and description sections next to each other horizontally by default on my display - now it's moved to vertically stacked - arguably too much space and I'm unable to resize it to be smaller.
+  AI panel (Duo Agent Platform)
+  * Do you use the AI panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.
+  * Last reply byEmily Bauman1 month ago
+
+Yuji Tabata@uztbt1 month ago   Your role: Software Engineer   Main workflows: Issues and MRs   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * Brief bullet points
+  -  
+  What Needs Fixing
+  * Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish)
+  - MEDIUM I prefer the old UI to the new one. The new design looks similar to Apple's Liquid Glass. The panels and contents have more rounded corners and extra padding, which don't make much sense to me. The old design was more compact and simplistic.
+      AI panel (Duo Agent Platform)
+  * Do you use the AI panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.   Edited 1 month ago by Yuji Tabata
+  *  
+  * Sascha Eggenberger@seggenberger1 month ago     Developer     @uztbt thank you for your feedback. The issue boards is a known bug and is already being worked on
+  * Nhat@csqnhat1 month ago     @seggenberger can we make this new UI a toggle in the future, rather than removing the old one?
+  * Austin Regnery@aregnery3 weeks ago     Developer     Unfortunately supporting two UI patterns is not a tenable solution long term @csqnhat
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Manuel Waldner@mwaldner_immomio1 month ago   Your role: Developer   Main workflows: MRs   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * In general the new UI looks nice
+  What Needs Fixing
+  * LOW Having the MRs and To-Dos moved to the top right breaks my current workflow, which might just need some time to adapt, but at first it was really confusing where it went.
+  * MEDIUM The new design adds a lot of extra spacings, e.g. the Duo Chat was added as not removable vertical bar at the right, which takes up additional space and reduces the available space for e.h. code reviewing where space is really needed.
+  AI panel (Duo Agent Platform)
+  * Do you use the AI panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+    * I just do not need it and actually never tried it.
+  * How well does it integrate into with your workflow?
+    * As i do not use it at all, i cannot assess this.
+  - Last reply byEmily Bauman1 month ago
+
+Dan MH changed the description 1 month ago ·
+Loïc Simon@loic.simon1 month ago   Your role: Developer   Main workflows: MRs, pipelines   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * Not a too disruptive change
+  What Needs Fixing
+  * MEDIUM we lose 56px of vertical space for no value (less lines shown at a time when reviewing a MR etc), the search bar was good on the left
+  * MEDIUM we lose 40px of horizontal space on the right for no value (I don't use AI), as the right sidebar cannot be collapsed—why?
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+    * I don't need IA to do my job, I have enough issues to deal with already
+  * How well does it integrate into with your workflow?
+  Edited 1 month ago by Loïc Simon
+  * Last reply byEmily Bauman1 month ago
+
+David Graham@david.graham11 month ago   Quick feedback template   Your role: Developer   Main workflows: MRs   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * I like that the new look adds a delineation between main content and the navigation/layout content. Makes it easy to focus.
+  * There's less clutter in the top navigation.
+  What Needs Fixing
+  * Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish)
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? I don't use Duo much.
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.
+  * Last reply byEmily Bauman1 month ago
+
+Ciobanasu Ion@c-ionciob1 month ago   Hello everyone,   I’m using GitLab to manage issues and add test cases (TCs). Overall, the experience is quite good, but I’d like to suggest a feature that I believe would be very useful — ideally as an optional capability.   Currently, our test cases are stored in a separate project:   /quality/test_cases   Unfortunately, we are unable to link these test cases directly to issues in Linked Items.   I’ve tried to find a way to contact support, but the amount of information available makes it time-consuming to figure out the right channel. That’s why I’m submitting this request here.   Feature request: Please consider adding functionality that allows users to link test cases to issues. This would greatly improve traceability and workflow efficiency.   NOTE: I apologize if I'm in the wrong place—it's possible I'm not familiar with some procedures. If that's the case, could you kindly direct me to the appropriate channel or let me know where I can report a ticket?   Thank you very much!   Edited 1 month ago by Ciobanasu Ion
+
+  * Last reply byEmily Bauman1 month ago
+
+Max Basescu@foxrobotics-mbasescu1 month ago   My role: Developer   Main workflows: MR submission / review, browsing commits / branches, etc.   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What Needs Fixing
+  * MEDIUM: With an ultra-wide display, having the main interactable elements of the home-screen UI divided between the left and right side of the display is fairly annoying. It means a lot of head turning depending on what I'm trying to do, where it was convenient with the old UI to have all the important stuff aligned to the left. Not the worst thing ever, but would be nice to keep the "always available" part of the UI collocated in one area of the window.
+  -  
+  - Dasha Adushkina@dashaadu1 month ago     Developer     @foxrobotics-mbasescu This is great feedback, thank you! With the split UI, are there particular buttons or sections that feel most distracting to how you worked before?
+  - Max Basescu@foxrobotics-mbasescu1 month ago     No problem - it's the following buttons that now show up on the right side which I miss being on the left 😁
+    * Profile icon
+    * To-do items
+    * Merge requests
+    * Assigned issues
+    * Create new...
+    For reference, here's how it looks on my display:
+  - Armin Berres@aberres1 month ago     Agreed. Having the most-used stuff (navigation vs todos and MRs) on the right and the left side drives me crazy so far.
+  - Finn Fentker@ffentker3 weeks ago     +1. Especially on Ultrawide it's highly unintuitive.
+  - Austin Regnery@aregnery3 weeks ago     Developer     @ffentker for what it's worth, I'm also an ultrawide monitor user. I know it feels a little awkward at first, but I'm hoping it settles in and feels more normal to with time.
+  - Kevin Ashton@ashtonkd3 weeks ago     I agree that the GitLab UI looks/feels wonky with only a single panel displayed on a wide monitor, but it kind of always has. The new panels layout feels like it has a lot more potential for ultrawide monitors. It just needs to be common layout pattern across the whole site instead of only for epics/issues/tasks in specific situations. It could be great for other areas where you frequently move between sub-elements of a parent element.     For example, the following areas could greatly benefit from optionally opening sub-element links in a details panel on the same page:
+    * viewing job logs from a pipeline page
+    * viewing registry details from the registries page
+    * viewing a files from the repository page
+    The new panels layout is a much better use of space on an ultrawide display:           vs. the old floating drawer layout:      
+  - The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Thomas Näveke@Thomas.Naeveke1 month ago   Your role: Developer/DevOps   Main workflows: Issues/MRs/Job logs/Browsing diffs/Reviews, etc   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well I like the separation between the core task and the surrounding utilities/navigation elements.   What Needs Fixing
+  * Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish)
+  * HIGH No scrollbar shown in job logs. Scrolling only possible via mouse wheel (my poor Carpal Tunnel Syndrome...). I'm on Firefox and use the light theme, if that matters.
+  * MEDIUM A ton of screen real estate is wasted by having side/top bars all over the place when none of them is actually filled. Why is there a right hand side bar when the top bar is almost completely empty? Why is there a left side bar and a right side bar and a top side bar? I'm sorry to say it, but the compact design Github uses is just kilometers ahead of this redesign.
+  * LOW Clicking my profile pic with the mouse wheel should open my profile page in a new tab
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?     Tried it once, it wasn't useful. I would strongly prefer GitLab prioritized core topics where issues have been open for years, sometimes more than a decade. For instance: A code owner needs to be able to filter the MR diff to only see changes he is responsible for. (#205201 5.5 years old)
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.
+  * Last reply byMichelle Gill1 month ago
+
+Sascha Eggenberger mentioned in merge request !210308 (merged) 1 month ago
+Chad Lavimoniere@clavimoniere1 month ago   Developer   Just experienced the welcome modal for the first time, have some feedback:   Screen Recording 2025-10-28 at 12.59.24.mov
+
+  * "Go Next" and "Go Back" don't really make sense. "Go Next" is not grammatical in English, and the capitalization is weird. Why aren't these just "Back" and "Next"?
+  * The header of the modal should probably change with each slide. It's completely unclear unless you read the copy (which users won't) what each slide is trying to actually say
+  * The feedback issue link should open in a new tab, not in the current tab
+  - Last reply byEmily Bauman1 month ago
+
+Bill Staples@bill_staples1 month ago   Developer   Not a super compelling experience, IMO. The only thing my eye sees is the H1, which doesn't change. The visuals are so subtle and abstract it is hard to map to the real experience, especially if this is popping up first time. Having a modal dialog with "Go Next" required clicking many times is annoying first time user experience.   Edited 1 month ago by Bill Staples
+
+  * Last reply byAustin Regnery1 month ago
+
+Annabel Dunstone Gray mentioned in merge request !210557 (merged) 1 month ago
+Miguel Rincon mentioned in issue #578733 (closed) 1 month ago
+Mark Florian@markrian1 month ago   Maintainer   I've just experienced the welcome modal for the first time. Some thoughts:
+
+  * It feels a little bit sluggish for me on Firefox. I'm guessing the the light beams/dusty backdrop is quite expensive. Here's a performance profile of it. Note the many paint operations in the renderer row which take >16ms, which means it's regularly falling below 60fps. This isn't a great experience, as it implies that the new experience as a whole will feel sluggish.
+  * The "Go to GitLab" label on the final step is strangely worded. (See also #577554 (comment 2850969302) for "Go Next".) I would expect just an "Ok", or "Got it" or something to that effect instead.
+  * The "Open feedback issue" link is worded that made me hesitate, as I didn't want to open a brand new feedback issue. It was only on inspecting the URL that I realised it would take me to an existing feedback issue (i.e., this one).
+  Edited 1 month ago by Mark Florian
+  *  
+  * Thomas Hutterer@thutterer1 month ago     Maintainer     @aregnery @jmiocene Same as Mark, I saw the welcome modal for the first time and have some thoughts.     Some may be nitpicky, but since this modal tour is the very first interaction users will have with the redesign, every detail matters:
+    * Why are there bubbles in the background? Seriously that was the first thing that came to mind 🫧 They distracted me from the content.
+    * In the first screen where it transitions from old to new UI, a user who doesn't know/care too much will have a hard time telling what is the new and what is the old form. Some labels or ✨ might help. Or just play the animation once, stopping at the new form.
+    * First screen button label "Get started": my thought was "get started with what? I have work to do" ... this should be labeled with "Next".
+    * Bonus nitpick: This tour does also not tell me how many steps there are, so I don't know what I commit to as a user when clicking "Get started". It should show something like "1/4". Ah I just notice there are step indicator dots on the slides, sorry, I missed that earlier.
+    * Also this button should sit on the right of the modal, like all the other "Next" buttons.
+    * On another screen it says "all your work items conveniently positioned in the upper right"... What it means are the issues/mrs/todos links (Internally called UserCounts) but "work items" is a different concept in GitLab and we should not use it here to not mix up terminology.
+    * On the last slide it says "this sleek panel UI".... I don't like it (as a user) when a website tells me how I should feel about its redesign. Is it really sleek? That's for the users to decide 😅
+    Edited 1 month ago by Thomas Hutterer
+  * Austin Regnery@aregnery1 month ago     Developer     Why are there bubbles in the background? Seriously that was the first thing that came to mind 🫧     The particle effects are visual flair.     "all your work items conveniently positioned in the upper right"... What it means are the issues/mrs/todos links (Internally called UserCounts) but "work items" is a different concept     Good point,I think "all your shortcuts are positioned in the upper right" would be more true to the features they are.     First screen button label "Get started": my thought was "get started with what?     Feels self explanatory to me, but we can revisit that wording.     "this sleek panel UI".... I don't like it (as a user) when a website tells me how I should feel     Fair     @msedlakjakubowski if you have suggestions let @annabeldunstone know and we can make tweaks.
+  * Marcin Sedlak-Jakubowski@msedlakjakubowski1 month ago     Maintainer     @markrian @aregnery @annabeldunstone I also don't like apps telling me what to feel (that's why we avoid "easy" or "simple" in docs. My previous proposed copy used "modern" (even though I'm not sure what it means either).
+  * Annabel Dunstone Gray@annabeldunstone1 month ago     Maintainer     @msedlakjakubowski Feel free to change it!
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+유병문@whyrough1 month ago   Summary   In GitLab EE 18.5.1 (Free tier), when using the new UI, Mermaid charts in Wiki pages are printed too small in PDF exports.   When the new UI is disabled, the charts print normally at the correct size.   Steps to Reproduce
+
+  1. Enable the New UI in GitLab.
+  2. Open a Wiki page containing a Mermaid chart.
+  3. Use “Export as PDF” to print or save the Wiki page.
+  Actual Behavior
+  * The Mermaid chart is rendered extremely small in the exported PDF.
+  * Text and diagram elements are barely visible.
+      Expected Behavior
+  * The chart should render at a normal readable scale, consistent with how it appears in the Wiki preview.
+      Environment
+  * GitLab Edition: EE (Free tier)
+  * GitLab Version: 18.5.1
+  * Browser: Any (Chrome, Safari tested)
+  * PDF Export: Built-in GitLab Wiki export feature
+  Additional Notes
+  * This issue does not occur when the New UI is disabled — the chart renders correctly in PDF exports.
+  * Issue appears to be related to Mermaid rendering scaling in the new UI’s PDF export pipeline.
+  -  
+  - Sascha Eggenberger@seggenberger1 month ago     Developer     @himkp @afracazo is this known?
+  - Himanshu Kapoor@himkp1 month ago     Maintainer     No, this isn't known. Created #578972.
+  - John Hope@johnhope3 weeks ago     Developer     I think this is fixed with !212286 (merged). @whyrough could you check please?
+  - 유병문@whyrough3 weeks ago     @johnhope     Issue Summary     When exporting wiki pages to PDF, Mermaid diagrams are rendered at an unexpectedly small size in GitLab EE (self-hosted) 18.5.2. This behavior does not occur on gitlab.com.     Details
+    1. gitlab.com behavior
+       * Mermaid diagrams maintain normal size when exporting to PDF.
+       * This appears to be because the sidebar is included during PDF export, which stabilizes the layout.
+       * However, the sidebar’s background color is still visible in the exported PDF.
+        
+    2. GitLab EE 18.5.2 (self-hosted) behavior
+       * When exporting from the new UI, Mermaid diagrams appear significantly smaller.
+       * This seems to be caused by the sidebar not being included in the exported layout, resulting in a different rendering context.
+        
+    Impact     Our customers still require printed documentation.     If PDF exports continue to display Mermaid diagrams incorrectly or include unintended sidebar background colors, it will negatively affect document quality and hinder our ability to deliver materials to clients.     Request     Please investigate the inconsistency between gitlab.com and GitLab EE 18.5.2 and address the rendering issues during PDF export:
+    * Mermaid diagram scaling differences
+    * Sidebar background color appearing in exported PDFs
+    Fixing these issues is important for producing accurate, print-ready documentation.
+  - John Hope@johnhope3 weeks ago     Developer     @whyrough Understood. Sorry about this. It's not happening on gitlab.com because we've fixed it already and the fix will be included in GitLab 18.6. The workaround in the mean time is to toggle the new experience off and use the old interface to print the PDF.
+  - The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Gautier Cuquemelle@gautier.cuquemelle1 month ago   Your role: Product Owner   Main workflows: Issues   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * Brief bullet points
+  What Needs Fixing
+  * HIGH : losing issue informations in "preview" mode (right side). Most important informations I'm highly using and need to keep visible at any time : labels, assignee, milestone
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  -  
+  - Emily Bauman@emilybauman1 month ago     Developer     @gautier.cuquemelle - Thanks for the feedback on the new UI. The labels, assignee, and milestone visibility issue you mentioned is important to understand better so we can iterate towards a better experience.     When you say you're "losing issue informations in 'preview' mode (right side)" - are you referring to when the interface switches to a double-panel layout? For example, when you have two main content areas on the left and the panel (like AI chat) open on the right side, does the issue sidebar information disappear or become less accessible?     It would help to confirm the specific scenario where you're losing visibility of those key details so we can address the right workflow issue.     Thanks again for the feedback!
+  - Gautier Cuquemelle@gautier.cuquemelle1 month ago     Hello @emilybauman,     They you for your comment.     This is what I can see today when opening an issue. In the red rectangle are informations that are very important to see at first sight :     With the new view, these information are only displayed after issue description. We need to scroll down (sometimes a lot) to find it :
+  - Emily Bauman@emilybauman1 month ago     Developer     @gautier.cuquemelle - Thank you for confirming! We'll definitely look into how to make this a better experience in future iterations.
+  - n7800@n78003 weeks ago     Contributor     @gautier.cuquemelle, if I expand the left panel (arrow below), the issues opening in the right half will take up most of the space, and they will have a sidebar on the right with labels/milestones and such:     CollapsedExpanded     But I see that you already have it expanded... Either this has changed over the past week, or it's somehow dependent on your screen width. You can try changing the width of your browser window to confirm.
+  - Gautier Cuquemelle@gautier.cuquemelle1 day ago     Hello @emilybauman,     This is is clearly a regression, now that we have no choice but to endure this change ! I can either lose visibility in sidebar buy collapsing it, set zoom to 90% in brother, or lose visibility on all important informations in the ticket : assignee, status, lables , Milestone, Weight, Parent.     Having a screen resolution of 1920 x 1200 should be enough to avoid having to choose between several essential elements.     Definitely a very bad experience
+  - The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Charles-Henry Feuillet@CH-Feuillet1 month ago   Your role: Product owner   Main workflows: Issue boards / scrum workflow   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * like the new features and esthetics
+  * persistent panel is a good idea
+  What Needs Fixing
+  * Medium : the side panel with issue planning information should be back as a side panel, when checking issues status in previous version all planning information where visible, now we need to scroll all the way down to check the issue infos. I see the benefit of having larger space for issue description. Maybe a hide/collapsing behavior would help.
+  * Medium : when using the visualization of epics' swimlanes the columns shall have a separation to ease reading each categories content     current behaviorexpected behavior
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.   Edited 1 month ago by Charles-Henry Feuillet
+  *  
+  * Emily Bauman@emilybauman1 month ago     Developer     @CH-Feuillet - Thanks for the feedback! Good to hear the new features and persistent panel are working well for you.     Your points about the issue planning sidebar and epic swimlane column separation are both solid workflow improvements, we'll look to factor these layout optimizations into our iterations.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Himanshu Kapoor marked this issue as related to #578972 1 month ago
+Marcin Sedlak-Jakubowski changed the description 1 month ago ·
+Austin Regnery changed the description 1 month ago ·
+🤖 GitLab Bot 🤖 changed the description 1 month ago ·
+Austin Regnery added typeignore label and removed typefeature label 1 month ago
+🤖 GitLab Bot 🤖 removed featureenhancement label 1 month ago
+Marie-Christine Babin@mcbabin1 month ago   Developer   Your role: Product Manager   Main workflows: Epics and Issues   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * I like the idea of the persistent panel for quick Duo Chat access.
+  What Needs Fixing
+  * HIGH : I ran into an issue today where Duo Chat could not access the content of my issues and epics. For example, when I was asking Duo Chat to summarize an issue for me, it replied "I don't have the detailed content for issue #xxxxxx to provide a summary [...] Could you please provide the full issue content for #xxxxxx so I can give you a comprehensive summary?". (Session ID 1209210). I logged out of my account and logged back into Okta and the agentic mode started working again. I wouldn't have guessed this was related to this with the prompt I was getting.
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  Edited 1 month ago by Marie-Christine Babin
+  *  
+  * Emily Bauman@emilybauman1 month ago     Developer     @mcbabin - Thanks for the feedback on the persistent panel!     That auth issue sounds frustrating, having to log out and back in isn't great, and the error message made it seem like a content problem rather than an auth issue. We'll look into improving this.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Madeline Lake@madlake1 month ago   Developer   Your role: Security Compliance Engineer   Main workflows: Issues and Epics   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * Concurrent agent sessions
+  * Intuitive layout
+  What Needs Fixing
+  * _Include priority: MEDIUM (annoying)
+  It seems that in the new UI I can't print to pdf. I do this to support our external audits where we need to pdf and issue as audit evidence. The new UI limits to 1 page and it is blue-ish blank page when you open the PDF. Switching to the old UI and printing PDF resolved. Seems to be a UI bug. Happy to provide what I am seeing when I perform this action to reproduce.   GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? Just by nature of my role I am not a high use user, but I do use it at least daily to summarize epics/issue and create new issues based on other issue context.
+  * How well does it integrate into with your workflow? Great
+  Any other observations, missing features, workflow improvements, etc. n/a
+  * Last reply byMadeline Lake2 weeks ago
+
+Andrew Bacon@abacon-gitlab1 month ago   Developer   In the new design, I was unable to find the the old design's equivalent of the + button, in order to add a new issue. Had to switch back to the old design to do it.   Eventually, I figured out that it's moved and changed to the very small square with a plus on the top right.   I imagine you're already aware of this awkwardness but spelling it out:
+
+  1. Old Plus icon was changed. Why?
+  2. There are now two different plus icons, one with old functionality, and one dedicated to chat functions. Why?
+  3. We now have two different plus icons located in the top right corner of the screen, pretty close to each other.
+  Edited 1 month ago by Andrew Bacon
+  * Last reply byEmily Bauman4 weeks ago
+
+MysticOak17@MysticOak171 month ago
+
+     > Your role:   >   > Main workflows:   
+   
+     **Overall Assessment**   - Would you prefer the new UI over current GitLab? Why?     - [x] Yes     - [ ] No     - [ ] Unsure   **What's Working Well**   * Now is more clear where thing are   **What Needs Fixing**   * *Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish)*   **GitLab Duo panel (Duo Agent Platform)**   - Do you use the GitLab Duo panel?     - [ ] Frequently     - [ ] Sometimes     - [x] Rarely     - [ ] Never   - If not using it, why?   - How well does it integrate into with your workflow?   **Any other observations, missing features, workflow improvements, etc.**   Do not revert to the old ui this new division are great   
+  Edited 1 month ago by MysticOak17
+  *  
+  * Emily Bauman@emilybauman1 month ago     Developer     @MysticNut17 - Great to hear the new UI is working well for you and that the clearer organization is an improvement.     Since you didn't mention any specific issues that need fixing, it sounds like the experience is solid overall. Good to know you want us to keep moving forward with this direction. Thanks for the feedback!
+  * MysticOak17@MysticOak171 month ago     I'am writing this from the phone the new ui looks and works great (for now) the new ui solves 1 of my problema with gitlab in the old ui i nedded to keep the side bar Always floating to Remember where the various menus are and i didn't like It but it was a compromise now in the new ui i can see all the menus Better and not feeling lost after using gitlab for half and hour and go back to github now i spent the 4 hours on gitlab this evening and i want to do It again the next time i code. Great Improvement, i tried also bitbucket i sucks even hader than gitlab whith the old ui, Again Great work
+  * MysticOak17@MysticOak171 month ago     Moved here #553938 (comment 2873031954) i think Is the right Place Again Great work     Edited 1 month ago by MysticOak17
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Dan LeGrand@dlegr2501 month ago
+
+     > Your role: Software engineer   >   > Main workflows: Issues   **Overall Assessment**   - Would you prefer the new UI over current GitLab? Why?     - [ ] Yes     - [ ] No     - [x] Unsure   **What's Working Well**   * Looks cleaner and more modern   **What Needs Fixing**   * LOW The issues, MRs, and todo buttons with counts all moved from the top of the left-sidebar to the top-right of the page. The search is now top center and my main nav is still on the left sidebar. Something really nice about the previous UI was that I had one place to look for all my notifications and major nav actions: the left sidebar. Also, removing the background on those buttons make it harder to discern them at a glance; I have to look and focus for a moment on which I'm looking at with the counts. Think I preferred having all my "look at stuff" in a single space in the top-left sidebar.   * LOW The search bar at top just leads to an inch of lost real estate on the page, meaning I have to scroll down to see more. Since you're using a command-palette like search popup, you don't need the actual search bar to be "big" or wide, so it's needlessly taking up space. I suspect many are using keyboard shortcut "/" to search, which makes it even less important to be big. Would be curious if you are tracking the stats on that to know how many users are using the hotkeys.   * LOW Don't like the new "+" icon in the top-right. It's small, and honestly not a very conventional icon IMO. The standard "+" you had before was more conventional and easier to understand.   * LOW The new UI seems to involve an increased number of sticky headers as I scroll, which means more motion on the page, more "jankiness" as buttons slightly shift, etc...   **GitLab Duo panel (Duo Agent Platform)**   - Do you use the GitLab Duo panel?     - [ ] Frequently     - [ ] Sometimes     - [ ] Rarely     - [x] Never   - If not using it, why? Haven't had a need for it here.   - How well does it integrate into with your workflow?   **Any other observations, missing features, workflow improvements, etc.**   * The panels are an interesting idea, but moving it from a sidebar on the right to a dedicated panel loses real-estate on the screen. I now have rounded corners at the top and padding on the sides which take up space without providing any real benefit. Gitlab is an application site that benefits from density of content on the screen. It's not like a blog application where breathing room makes it easier to read or process info.   
+  Edited 1 month ago by Dan LeGrand
+  *  
+  * Austin Regnery@aregnery1 month ago     Developer     Thanks for the thorough breakdown @dlegr250! I can empathize with the relocation of the buttons. I'm interested to see how you feel after you've adjusted (or not). The rest of the feedback is definitely heard. We are continuing to polish as we go, and your feedback goes a long way in helping us.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Austin Regnery mentioned in issue #580006 (closed) 4 weeks ago
+Dan LeGrand@dlegr2503 weeks ago   Not sure if you wanted this issue to be exclusively for the panel UI changes, but here's a minor cosmetic UI issue I came across using the new UI. When you have a long project name, it doesn't truncate the text on the left sidebar navigation. This may be intentional, but wanted to raise awareness if not; it looks a little clunky to have the project name wrap like that (see screenshot).   Applying some simple CSS to the tag solves it, not sure if you have a utility class that does this already:
+
+     overflow: hidden;   text-overflow: ellipsis;   white-space: nowrap;   
+  and then adding the full project name in the title attribute for cases where it's truncated.    
+  * Last reply byAustin Regnery3 weeks ago
+
+mohsen shafiei@mohsenjch3 weeks ago   Hi, the scrollbar has become quite frustrating for me. I’m used to moving my mouse all the way to the right edge of the screen to grab it without even looking, but with the new theme, I have to specifically look for the scrollbar area and move the mouse slightly to the left to catch the handle.
+
+  * Last reply bySjoerd Kuperus3 weeks ago
+
+🤖 GitLab Bot 🤖 added Customer Interest label 3 weeks ago
+Guillaume@mebibou3 weeks ago   Your role: Lead Developer / DevOps   Main workflows:   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * The left sidebar with the links has not changed, and that is a good thing.
+  What Needs Fixing
+  * HIGH: Remove the modals to create new issues. It's useless, as they are too small to properly write content. Also after creating the issue, if you don't click on the link in the tiny notification, you basically loose the issue. It's very frustrating. It was so much better when it always opened a full new page. And clicking on the expand icon, every single time, just adds one more unnecessary step
+  * MEDIUM: Please rename Parent to Epic in the right sidebar. It always takes me a while to remember that is what its for. And I had to ask around the first time you changed it, as I just couldn't find it.
+  * LOW: One thing that could be improved as well, is the modal to move issues. When you open it, there is only one action you can do: click on the dropdown to open it. Why not opening it by default? that way, I have one less click to do, and after opening it, I can start typing straight away to filter the projects and find the one I want.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? I tried once to ask a question about Gitlab feature, and it couldn't give me an answer. Asked Gemini and I got the answer. No more reasons to use it again tbh
+  * How well does it integrate into with your workflow? N/A
+  Any other observations, missing features, workflow improvements, etc.
+  *  
+  * Emily Bauman@emilybauman3 weeks ago     Developer     @mebibou - Thanks for the feedback. Your points about the issue creation modal being too small and the "Parent" vs "Epic" labeling make sense. Auto-opening the move issues dropdown is a good suggestion too. We'll keep these in mind for future iterations.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Thomas Näveke@Thomas.Naeveke3 weeks ago   Now that I have used the new UI for a while, I want to give some additional Feedback:
+
+  * Split view for issue list + issues: There should be a toggle to enable/disable this. I can see how it is useful for some users, but it annoys me since I generally look at one issue at a time.
+  * I really love the new overview for GitLab Runners in the CI/CD settings. Seeing at a glance which runners are busy/idle is a huge improvement.
+  * There is a LOT of dead space in a lot of places - I'd appreciate a better use of my screen real estate here. Example: I'd propose collapsing the "Help" section at the bottom left into a single icon or a very slim icon bar that expands upon clicking. It uses way too much space that is permanently pinned whatever you do. I can't imagine many people use it. If they do, I think the icons should be enough.
+  -  
+  - Natalia Tepluhina@ntepluhina3 weeks ago     Maintainer     @Thomas.Naeveke thank you for the constructive feedback! I'll let our UX engineers address the points about dead space, but for point 1: there is an option to disable split view on issues list (although it's not the easiest to find):
+  - Thomas Näveke@Thomas.Naeveke3 weeks ago     Thanks, you just saved me so much time!
+  - Sascha Eggenberger@seggenberger3 weeks ago     Developer     @Thomas.Naeveke     There is a LOT of dead space in a lot of places - I'd appreciate a better use of my screen real estate here. Example:     Regarding this feedback: Are you currently using the fixed layout option? You can switch to fluid in your user preferences￼to make better use of the available space if that's what you’re looking for:      
+  - Thomas Näveke@Thomas.Naeveke3 weeks ago     Thanks, fluid makes it a little bit better but not fully. It's also a bit annoying to have to search for such UI options in several different places. It would be nice to have one obvious spot where I can find all personal preferences.
+  - Sascha Eggenberger@seggenberger3 weeks ago     Developer     cc @nickleonard for the feedback around discoverability of the Open items in side panel option
+  - The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Mikolaj Szabo@mikolajszabo3 weeks ago   Who needed or asked for a redesign? You're claiming in your bullshit popups that it is supposed to make people work faster, but what actually achieves this is people being able to rely on things working the same way today as yesterday, so that they don't have to re-learn a tool every single day. This is nothing more than a completely unnecessary distraction, which we can probably thank to useless people trying to make themselves look busy in a bloated organization.
+
+  *  
+  * Sascha Eggenberger@seggenberger3 weeks ago     Developer     @mikolajszabo could you share a bit more detail about what's not working well for you? Most elements are still in their previous locations, though we've adjusted a few based on user feedback. We understand that change can be frustrating, and we're actively testing and iterating with customers to make the experience better.
+  * Austin Regnery@aregnery3 weeks ago     Developer     @mikolajszabo we pay close attention to our System Usability Scale feedback. We've made some change based on what we've heard there, and knowing that changes like this can be painful we have intentionally avoided doing much for several years now.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+James Abbott@jamesabbott923 weeks ago
+
+     > Your role:   > Developer   **Overall Assessment**   - Would you prefer the new UI over current GitLab? Why?     - [ ] Yes     - [ ] No     - [X] Unsure   **What's Working Well**   * Overal sense of space has increased which I do commend.   **What Needs Fixing**   * Not too bad, however I feel there is a sense of 'floating' which I think could be improved. In my opinion, the side panel having some distinction would remove some of this, for example:   Having the side panel reach the top of the page and not wrapping around the top of the screen. I also think the border radius at the bottom of the page may be a little too much   I fell this adds an unnecessary 'panel' feel to what should be an open clear scrolling page, is it necessary? These are my minor design questions. But overall a step in a better direction.   
+  Edited 3 weeks ago by James Abbott
+  * Last reply byEmily Bauman3 weeks ago
+
+Dominik Säume@dominik.saeume3 weeks ago   how can I remove the right sidebar? even collapsed its usseless usage of screensspace for me.   also, why can't i resize the left sidebar anymore? I can only un/-colapse it
+
+  * Last reply byDominik Säume3 weeks ago
+
+Natalia Tepluhina mentioned in merge request !212229 3 weeks ago
+Marek Marczykowski-Górecki@marmarek3 weeks ago   Information density of the new pipelines view is horrible with a vertical screen layout (I use FullHD monitor in vertical orientation for gitlab.com).   Old UI:       New UI:       Literally less than the half of rows fits on the screen.
+
+  *  
+  * Sascha Eggenberger@seggenberger3 weeks ago     Developer     @marmarek thanks for sharing this feedback.     @mrincon is this known?
+  * Miguel Rincon@mrincon3 weeks ago     Maintainer     @seggenberger We didn't explicitly change the breakpoint to stack the table, but now we stack earlier due to only considering the panel width when calculating (and not the viewport).     Stacking earlier (on smaller sizes) has some side effects as depending on the data, as some fields tend of overflow. We can revisit this here !212262 (diffs), but this tends to have unwanted issues like I show at !212262 (comment 2881411232).
+  * Marek Marczykowski-Górecki@marmarek1 day ago     I found a solution for this: if I remove "Persistent GitLab Duo panel" (which I don't want to see anyway, I have no use for this feature), it goes back to the compact view.     Please add an option to hide "Persistent GitLab Duo panel"!
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Tomás Miguez@tmiguez_fu.do3 weeks ago   Your role: Developer   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What Needs Fixing
+  * LOW: There is a lot of space wasted on the sides of the main panel, my laptop screen is tiny so that space would be appreciated.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  I don't think coding copilots are useful, productive or enjoyable to use.    
+  * Last reply byTomás Miguez3 weeks ago
+
+Cuynu@cuynu3 weeks ago   Your role: Developer   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  I don't want to integrate or use any AI-tools (both Agent & Assisted mode) in my workflow.   Any other observations, missing features, workflow improvements, etc.
+  * There should be a toggle to completely disable "GitLab Duo" for who don't want to use it at all.
+  Edited 3 weeks ago by Cuynu
+  * Last reply byEmily Bauman3 weeks ago
+
+Jim Gorski@jim.gorski3 weeks ago   Every time you make a change to the UI - people have to update documentation to support internal customers. Unless the change is so positive that there is no longer a need for documentation you are making toil for teams rather than delighting your customers.   Also, making a visual change that only increases toil (and introduces risk from change) AND making it time gated so customers have to eventually leverage this completely non-essential change makes this toil now an urgent task since there's a time limit to when it becomes mandatory.   This topic will be raised at the next meeting between my company and Gitlab.
+
+  * Last reply byEmily Bauman3 weeks ago
+
+Grant Avery@Grant.Avery.GFS3 weeks ago   Your role: Software engineer   Main workflows: MR creation, code review, managing pipelines/jobs.   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * The new always-visible mini-sidebar on the left is really appreciated! The expanded left sidebar is a little too much a lot of the time, so it is nice to have a consistent way to get at those nav elements without having to hover over the "expand the nav temporarily" button and deal with the nav animating in and out.
+  What Needs Fixing
+  * MEDIUM - Scroll bars for the "{current context} panel" exist on the far right of the panel UI (just to the left of the GitLab Duo sidebar), making it harder to find:
+    *  
+    * This is especially confusing when on a page where the details sidebar also has its own scroll view, since the scroll bars appear out of order:
+      *  
+  * MEDIUM - Additionally, scroll bars now have no visible "channel", even when actively scrolling. This makes it harder to click to a certain part of the channel, either risking mis-clicks or having to solely grab the bar and move it that way.
+    *  
+  * MEDIUM - I don't love the lost real estate from the top search bar taking up vertical space and the GitLab Duo sidebar taking up horizontal space. Please at least make the latter minimizable (or move the Duo elements up to the top bar).
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? I mostly use in-IDE AI agents, haven't found as much use for Duo yet.
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.
+  *  
+  * Emily Bauman@emilybauman3 weeks ago     Developer     @Grant.Avery.GFS - Thanks for the detailed feedback! Good to hear the mini-sidebar is working well for you.     Thanks for sharing the concerns around the new scrollbars, having them appear out of order with multiple scroll areas is confusing, and losing the visual channel makes targeting harder. The real estate concerns with the search bar and Duo panel make sense too, especially if you're not using Duo much. We'll look into these scrollbar and layout issues for future iterations.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Nathan Cain@nathan-predoc3 weeks ago   Your role: Software Engineer   Main workflows: Merge Requests, Repo Navigation, CI/CD   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * the design for this move to being less dense looks good... It is just less productive with having key buttons on both the far left and far right of the screen. Feels like putting form over function.
+  What Needs Fixing
+  * MEDIUM Having key buttons in the top right breaks years of muscle memory since the last redesign. Idc if everyone likes putting a user photo in the top right, I loved that gitlab had everything in a single panel that I could look/go to without thinking anytime I needed to navigate or get an update on my merge requests or tasks. Please move the buttons in the top-right back to the main panel - it was the best placement of all of my daily tools and I don't like having them split in the new design. Again, this feels like form over function - looks good and works worse.
+  * MEDIUM Losing a whole row of vertical real estate for a search bar when it was perfectly find in the side bar feels like more form over function. Why does it need to look like every other app, when search is simply never as important as what is on the main panel.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? Not enabled for org
+  * How well does it integrate into with your workflow? N/A
+  Edited 3 weeks ago by Nathan Cain
+  * Last reply byEmily Bauman3 weeks ago
+
+Dan Siegel@dan.siegel3 weeks ago   Your role: software engineer   Main workflows:   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well   What Needs Fixing
+  * MEDIUM (annoying) : the page responsive layouts leave huge amounts of space. I have an ultrawide monitor (34 in). If I am on half screen browser window with sidebar, it goes into a more mobile version of it. Smaller auto collapses sidebar, and JUST slightly larger than half screen puts it back.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.           Edited 3 weeks ago by Dan Siegel
+  *  
+  * Emily Bauman@emilybauman3 weeks ago     Developer     @dan.siegel - The responsive layout jumping between mobile/desktop views on ultrawide monitors is a good point, thanks so much for bringing this up. We'll look into improving those breakpoints for future iterations.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Malvin Gattinger@m4lvin3 weeks ago   Your role: university teacher and developer   Main workflows: pipelines, jobs, artifacts   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * At least the things I use seem to still look the same.
+  What Needs Fixing
+  * Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish)
+  * MEDIUM the "welcome to the new design" message appears way too often. I should only have to see it once.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+    * Because I find LLM-based tools unsafe, distracting and not worth the effort.
+  * How well does it integrate into with your workflow?
+    * Not.
+  I can only imagine how much work probably went into this redesign. Meanwhile, more mundane things could be improved, e.g. pre-populating this comment field here with the template instead of me having to copy it manually.
+  *  
+  * Emily Bauman@emilybauman3 weeks ago     Developer     @m4lvin - Thanks for the feedback. Your point about the "welcome to the new design" message appearing too often is a good catch, that should definitely only show once.     The template pre-population suggestion is a great example of how the small things are important too, those practical workflow improvements really add up. We'll look into these issues for future iterations.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+🤖 GitLab Bot 🤖 mentioned in issue #580309 (closed) 3 weeks ago
+Scotty Jamison@scotty.jamison3 weeks ago   Your role: Developer   Main workflows:   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What Needs Fixing
+  * LOW: When in an issues board, the horizontal scrollbar isn't at the bottom of the screen anymore, instead it's lifted up a few pixels. I tend to have my windows full-screen, and am pretty used to throwing my mouse at the bottom of the screen then dragging around. Now it requires more a lot more precision to navigate the page.
+  * LOW: I find that I don't like the The issues board split in half with the ticket description on the right. The theory would be that it's easier to explore tickets because the information can pop up, inline. In practice, the issues board because pretty annoying to navigate when confined to half a screen - I still prefer just opening tickets in new tabs (middle clicking). This means whenever I'm normal-clicking on a ticket, it's not because I want to preview it (I would have opened it in a new tab instead), instead I just want to replace the page with the ticket, probably because I'm going to start working on it. Now that takes two clicks instead of one - open the issue, then click the little link to make it take the full page.
+  I understand why both of these changes were done, and I can see them being helpful for others. My gripes are also extremely minor. In the end, I know it's probably not something that's worth fixing, but just thought I would share my experience with it anyways.   Edited 3 weeks ago by Scotty Jamison
+  *  
+  * Emily Bauman@emilybauman3 weeks ago     Developer     @scotty.jamison Thanks for the feedback. The scrollbar positioning issue makes sense, losing that screen edge target would be frustrating in a workflow. Your point about the split view creating extra clicks when you just want to open the full issue is a good one too.     Appreciate you sharing your experience with these changes. Tagging @nickbrandt as I believe you have more context into these problem.
+  * Sascha Eggenberger@seggenberger3 weeks ago     Developer     I find that I don't like the The issues board split in half with the ticket description on the right     @nickleonard @nickbrandt could we bring the option to opt out of this behavior (from the issues list) to the issue board, too?
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+James Crowther@james.crowther3 weeks ago   Your role: DevOps Engineer   Main workflows: Repo, MR, CI/CI, Policy   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What Needs Fixing
+  * MEDIUM - side bar does not fully collapse as it does in the old UI, thus taking up space that could be better used (ie reduce line wrapping) and in combination with the un-needed trim on the right of the page this cuts the 'useful' horizontal space down from 1440 px to 1369px (on my monitor)
+  * MEDIUM - lack of pop-out on mouse over for the left side bar (was a feature in the old UI) is a time sink, as I have to expand/collapse it manually to see the names of items/sections
+  * LOW - the scrollbar for the log in the, pipeline page, should be next to the log itself not at the extreme right of the page
+  * LOW - there is no need for curved edges everywhere, they result in needing more padding and that uses up more space
+  * LOW - An option to collapse the top banner (much like can be done with the left side menu) would be good so it is possible to maximise the 'useful' space in the browser window
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? Its not on my Org's current approved AI tools list
+  * How well does it integrate into with your workflow? N/A
+  Any other observations, missing features, workflow improvements, etc.   Here is my example for an update to the new UI to remove un-needed extra bits, note this was just a quick CSS mod of the page so I could not add extra collapse icons etc. (some content redacted due to secuity policy)       Edited 3 weeks ago by James Crowther
+  *  
+  * Sascha Eggenberger@seggenberger3 weeks ago     Developer     @james.crowther thank you for your feedback, we'll consider this as we continue to iterate.     lack of pop-out on mouse over for the left side bar (was a feature in the old UI) is a time sink, as I have to expand/collapse it manually to see the names of items/sections     This is something we're considering bringing back.     cc @thutterer     there is no need for curved edges everywhere, they result in needing more padding and that uses up more space     Let me debunk this myth a bit 😊 It's actually quite the opposite. While it may look less dense because elements appear softer, this approach lets us reduce padding and make better use of space. We've already started applying it in several areas and will keep optimizing further.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Julian Stirling@julianstirling3 weeks ago   Your role: Open Source project maintainer   Main workflows: A bit of everything! Repo/CI/MRs/Planning   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * Looks pretty
+  * I like the side by side view for issues
+  What Needs Fixing
+  * Open threads navigator doesn't show once you scroll from the top of the MR if your screen width is 1280px (half of the with of a 1440p monitor) HIGH Fixed!
+  * Total +/- lines count doesn't show at all if your screen width is 1280px MEDIUM
+  * Cannot scroll in an MR if your mouse is on the far LHS of the screen as this is outside the component that is scrolling. So all that thin purple bar is doing is making be watch where my mouse is rather than just move it left out of my way and then scroll as I work MEDIUM
+  I'll note two things here.
+  * I spent the day dealing with a backlog of MRs and reviews on my MRs before I got the email telling me how to turn off the new UI, it was pretty painful.
+  * I tend to have an open MR on one half of my screen (1440p) and other things (vscode, the app, another browser window on the other). This workflow is now broken. But I'd give it another go if it gets fixed.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? I don't find it that useful, I have tried it for basic code review. It sometimes finds a couple of thing that another human would during actual review. Normally it is just too busy stroking my ego telling me my code is nice, even if the code is still half baked.
+  * How well does it integrate into with your workflow? It doesn't
+  Any other observations, missing features, workflow improvements, etc.   Edited 2 weeks ago by Julian Stirling
+  *  
+  * Sascha Eggenberger@seggenberger3 weeks ago     Developer     @julianstirling thank you for proving this insightful feedback, we'll appreciate it. We'll look into improving the breakpoints for future iterations which might address most of your feedback right away
+  * Julian Stirling@julianstirling3 weeks ago     Worth noting that issue #580216 (closed) was made for the specific bug. And there is a lot of activity there.     I look forward to trying it again once these are fixed
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Moritz Zwerger@Bixilon3 weeks ago   Your role:   Main workflows: DevOps and software developing   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No!!!
+    * Unsure
+  What Needs Fixing Apart from introducing new major design things every couple of months, this is the worst. Now about 1/3 of my screen is full with stick headers that I really don't care about. I know that I am logged in, I know at what project I am looking, I know at what issue I am commenting. I'd like to see more actual content (like comments on issues, code review, ...) instread of static things.
+  * Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish) HIGH
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? I don't need AI to code
+  Any other observations, missing features, workflow improvements, etc.   Please move the search bar back, please move the logged in user to the sidebar again, please reduce the size of the headers.
+  *  
+  * Sascha Eggenberger@seggenberger3 weeks ago     Developer     @Bixilon thanks for sharing this feedback with us. As we continue to iterate, we'll be mindful about what type of information should appear in a sticky header
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Sophia McKeever@S.McKeever3 weeks ago   Your role: Sr. Software Development Engineer in Test   Main workflows: MR Review, Pipeline work, all code written in an IDE outside of GitLab   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * It adopts the Apple Round Corner(tm) design nicely, I suppose.
+  What Needs Fixing
+  * HIGH - It breaks visual pathing that I am accustomed to. As an autistic individual, the new UI changes too much for me to actually be able to use effectively and productively. When I instinctively cannot find the "search or goto" field how can I possibly use the new UI?
+  * HIGH - It feels way too busy without providing any additional value.
+  * HIGH - The over abundance of saturated colors on labels is visually distracting, hard to parse, and makes it difficult to understand.
+  * MEDIUM - Why is everything moved from the cozy, top-left corner, to... only Oshon, The Wanderer, knows where?
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  Besides the environmental impact and the ethical implications of AI being trained on and just mashing together content collected without explicit consent? I am an artist who finds joy and purpose in writing code myself. Why would I relegate that to an AI I never asked for? I have zero faith in an AI to actually be able to write functional and cohesive code and even more so code that fits established paradigms.
+  * How well does it integrate into with your workflow?
+  Absolutely not at all. If I can't be bothered to use ChatGPT, or any number of Microsoft's Copilot suite (including GitHub), there's no way I'm using GitLab Duo.   Any other observations, missing features, workflow improvements, etc.   The old UI is perfectly serviceable and works just fine, its not broken. Why 'fix'/change it? The new UI provides an accessibility challenge for me as a dyslexic autist with exotropic strabismus. My instinct is to gravitate all my control to the left side and its where I initiate the bulk of my interaction.   Edited 3 weeks ago by Sophia McKeever
+  *  
+  * Emily Bauman@emilybauman3 weeks ago     Developer     @S.McKeever - Thanks for sharing all this feedback on the new UI. The accessibility concerns you've raised about visual pathing and navigation changes are really important, disrupting established patterns can make the interface much harder to use, especially when you rely on consistent visual cues.     Your points about colour saturation and everything moving away from the top-left area are good accessibility considerations we need to keep in mind. This feedback will be important as we continue iterating on an experience that works for everyone.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+J.J. Green@jjg3 weeks ago   Overall, very nice, but something badly amiss on the pipelines tab of merge requests.    
+
+  *  
+  * Sascha Eggenberger@seggenberger3 weeks ago     Developer     @jjg we're glad to hear it's working well for you overall. The pipelines list is a point that has come up a few times already, and the team is actively looking into it     cc @mrincon     Edited 3 weeks ago by Sascha Eggenberger
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+n7800@n78003 weeks ago   Contributor   Regression   There's a regression that's slightly disrupting my workflow - the hotkeys no longer work. For example, I often navigate to the MR list using the g, m keys.       Now this hotkey doesn't work, nor do the others.   Edited 3 weeks ago by n7800
+
+  * Last reply byn78003 weeks ago
+
+n7800@n78003 weeks ago   Contributor   Regression   This isn't the first time I've seen panels floating in the middle of the screen. It seems to be a "sticky scrolling" feature, but with the wrong margin.   For example, when I was previewing a comment, I saw this:    
+
+  * Last reply byAustin Regnery3 weeks ago
+
+n7800@n78003 weeks ago   Contributor   Empty bar at the bottom   Notice in my screenshots above – there's a white bar at the bottom that doesn't do anything. It just steals vertical space.   You can clearly see that the scrollbars don't reach the bottom of the screen, and the "Switch to rich text editor" button is even cut off. I added a red border to make this clearer:    
+
+  * Last reply bySascha Eggenberger3 weeks ago
+
+n7800@n78003 weeks ago   Contributor   Performance   As soon as the new interface's welcome screen opened, my computer's cooler started working hard. I felt a lag and was afraid my PC wouldn't be able to handle the new interface. Fortunately, after closing the welcome message, the cooler calmed down. I'm sure this window shouldn't consume so many resources, as it would immediately lower users' expectations of the new UI.   However, the interface itself has indeed become slower. For example, when hovering over elements (label, username, issue link), it takes about 5 seconds before a pop-up window appears. When switching to the old UI, I see a delay of no more than 2 seconds.   Opening issues is also slower. And when clicking in the comment field, it also hangs for a few seconds before typing becomes possible. When switching to the old UI, I can clearly see the difference.   Along with the IDE, I have a ton of GitLab tabs open, and my PC is already at its limits. Increased resource consumption will become a barrier to using GitLab and my work. Please be mindful of users with slower/heavier PCs. I also want to be able to conveniently open GitLab on a tablet/mobile, at least for browsing.   I hope you'll fix the performance issue before making the new IU the default for everyone. Please don't put this off until the next iteration.
+
+  *  
+  * Sascha Eggenberger@seggenberger3 weeks ago     Developer     @n7800 we're currently investigating potential performance issues
+  * n7800@n78002 weeks ago     Contributor     @seggenberger, I see that the performance of pop-ups (when hovering over labels, usernames, and comment mentions) has improved, thank you!     However, the speed at which the user list appears in the comment field for mentions is extremely slow. Typing characters after the @ practically freezes.     But I must say, I notice this only in big issues like this, and the old UI is also slow (it doesn't look like a regression).     Perhaps this can be improved as well?
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+n7800@n78003 weeks ago   Contributor   Feedback   When I wanted to report a regression, I had to search the browsing history for the issue. The thing is, I expected to see it in the left "Help" button, and only later noticed it in the drop-down menu when clicking on the user's avatar. I don't think this is entirely expected, although it does make some sense...   Basically, there's some overlap between these menus, and it's difficult to figure out which one is needed:   Left menuRight menu
+
+  * Last reply byAustin Regnery3 weeks ago
+
+Thomas Hutterer mentioned in merge request !212375 (merged) 3 weeks ago
+Robert Toth@robertjgtoth3 weeks ago   My 2 cents: if it ain't broke don't fix it.
+Rafael Weingartner-Ortner@rweingartner3 weeks ago   Your role: DevOps Engineer  Main workflows: CI/CD, Merge Requests   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure: I was happy with the current/old design
+  What's Working Well
+  * Looks modern
+  What Needs Fixing
+  * MEDIUM: The new scrollbar now seems to be integrated into the rounded-view and the browser itself does not provide a scrollbar. This is an issue for me as I often search job logs via CTRL+F and want to find occurrences (see example images below)
+  Old UI (left): I can easily see the "hits" of my search term in the browser scroll bar VS New UI: No search hits are displayed in the scrollbar.    
+  * LOW: The search bar at the top takes up more space in the new design. Having it on the left, the center content could start at the top of the window
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+    * Not enabled yet
+  * How well does it integrate into with your workflow?
+  Edited 3 weeks ago by Rafael Weingartner-Ortner
+  *  
+  * Austin Regnery@aregnery3 weeks ago     Developer     Thanks for the report @rweingartner. We are going to look into this "Find in Page" scrollbar markers are not shown ... (#580617) • Unassigned
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Chelsea Bailey@Chelsea.Bailey3 weeks ago   Very frustrating experience moving items between swim lanes on boards. There seems to be some sort of offset happening where you cant drag and drop properly anymore as the destination positioning is somehow off.
+
+  *  
+  * Austin Regnery@aregnery3 weeks ago     Developer     @Chelsea.Bailey hmm that does sound frustrating. We use issue boards often. Are you seeing this in both the new and old UI?
+  * Chelsea Bailey@Chelsea.Bailey3 weeks ago     Its in the new UI. Just tried a little QA and if I collapse the left sidebar, it acts normally. The bug only happens when the sidebar is open.
+  * Austin Regnery@aregnery3 weeks ago     Developer     @jachapman can you look into this?
+  * Jack Chapman@jachapman3 weeks ago     Maintainer     @aregnery I've raised an MR which should resolve this !212580 (merged). I believe the same offset issue can be seen on other drag & drop features, so this should also resolve those too.
+  * Austin Regnery@aregnery3 weeks ago     Developer     Beautiful. Thanks for the swift action @jachapman 💫
+  * Chelsea Bailey@Chelsea.Bailey3 weeks ago     @jachapman @aregnery Thanks for the quick turn-around!
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Ryan Kelly assigned to @rkelly 3 weeks ago
+Ryan Kelly unassigned @rkelly 3 weeks ago
+🤖 GitLab Bot 🤖 changed the description 3 weeks ago ·
+Dustin Eckhardt@eggerd3 weeks ago   Contributor   Welcome back to the old-old sidebar/topbar design, everyone. Finally, if I may add. I appreciate the rollback - already love it compared to the the previous one.   Although, there seem to be some performance problems. Hover menus on the sidebar are super sluggish for me, as well as the expand animation.
+
+  *  
+  * Austin Regnery@aregnery3 weeks ago     Developer     Welcome back to the old-old sidebar/topbar design, everyone. Finally, if I may add. I appreciate the rollback     @eggerd we are always listening 😉 but we do try to avoid frequent changes.     Although, there seem to be some performance problems. Hover menus on the sidebar are super sluggish for me, as well as the expand animation.     I'll look into it some more. Can you share what browser, OS, and hardware you're using if possible?
+  * Austin Regnery@aregnery3 weeks ago     Developer     I think this might be what you are noticing @eggerd. @thutterer when I'm hovering through the nav in the rail only, I can move fast enough that it sometimes doesn't catch that I have moved cursor focus to a item. Any ideas?     Hover_flyouts     cc: @seggenberger @jmiocene
+  * John Hope@johnhope3 weeks ago     Developer     @aregnery I think this might be related to overall performance issues we're looking into on pages with a lot of DOM elements (such as this issue). We're seeing it on large commit pages also.
+  * Thomas Hutterer@thutterer3 weeks ago     Maintainer     @aregnery @johnhope Another, secondary factor is the "wiggle room" that we added around the area between mouse cursor position and flyout menus to allow diagonal mouse movement from the menu section icon/title into a long flyout menu. Usually these are invisible, but they "look" like this:           So if you'd move your mouse down real fast (on the right side of the icon-only sidebar at least), or if your CPU is so busy that the SVG calculations aren't updated in time (as might be the case when other performance issues slow down the page), there is a certain area on which the hover stays on the current menu section (wiggle room svg), on purpose.     TLDR: I think there's nothing we have to do about this, because it only became noticable with other things slowing down the page.
+  * Austin Regnery@aregnery3 weeks ago     Developer     I was wondering about the invisible zones, so thanks for the breakdown @thutterer
+  * Dustin Eckhardt@eggerd3 weeks ago     Contributor     gitlab-hover-menu     @aregnery The video shows what I was talking about. However, you're right that this seems to be linked to large pages like this issue. On my personal projects it's pretty smooth and that weird glitch at the beginning of the video also never happend there so far.     And now that you mention it, other stuff also feels slow when I'm on this issue - like the @ mention popover for example.     Chrome 142, Win 10 22H2, i7-3770K, GTX 1080, 16GB RAM
+  * Austin Regnery@aregnery3 weeks ago     Developer     Yep makes sense @eggerd. We found some performance improvement opportunities and they merged today so they should land in production soon!
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+David Adam Coffey@DavidAdamCoffey3 weeks ago
+
+     > Your role: Dev @ Enterprise Account   >   > Main workflows: dev/ops   **Overall Assessment**   - Would you prefer the new UI over current GitLab? Why?     - [X] Yes     - [ ] No     - [ ] Unsure   **What's Working Well**   * Looks nice, haven't explored it much   **What Needs Fixing**   * MEDIUM: the repository graph for large repos is noticeably slower to load with new ui, blocking tab for seconds [ PROJECT/-/network/main?ref_type=heads ]   
+  *  
+  * Sascha Eggenberger@seggenberger3 weeks ago     Developer     @DavidAdamCoffey we're glad to hear it's working well for you. We'll look into the performance issue you mentioned.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Daniel Parthey@parthey.daniel3 weeks ago   On small screens like iPhone SE there is less space for the MR diff in the new layout, please make the sidebars smaller or provide buttons to temporarily remove them.   Edited 3 weeks ago by Daniel Parthey
+
+  *  
+  * Sascha Eggenberger@seggenberger3 weeks ago     Developer     @parthey.daniel thanks for your feedback. The small screen experience is one of the areas we'll continue to iterate on to deliver further improvements
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Dr. Werner Fink@bitstreamout3 weeks ago   Grumle ... as default this new UI is not visible on firefox. Only after I've used google's chrome and switched back to former UI it works again
+
+  * Last reply byDr. Werner Fink3 weeks ago
+
+OortJacek@OortJacek3 weeks ago
+
+     > Your role:   >   > Main workflows: Boards, milestones, issues, MR, pipelines, settings   **Overall Assessment**   - Would you prefer the new UI over current GitLab? Why?     - [ ] Yes     - [x] No     - [ ] Unsure   **What's Working Well**   * N/A   **What Needs Fixing**   * MEDIUM - too frequent changes, we cannot focus on our work while searching for a button   * MEDIUM - The new layout lacks ergonomics   **GitLab Duo panel (Duo Agent Platform)**   - Do you use the GitLab Duo panel?     - [ ] Frequently     - [ ] Sometimes     - [x] Rarely     - [] Never   - If not using it, why?     - Poor quality. Not helpful. A waste of time in most cases.   - How well does it integrate into with your workflow?   **Any other observations, missing features, workflow improvements, etc.**   
+  Edited 3 weeks ago by OortJacek
+  * Last reply byOortJacek3 weeks ago
+
+🤖 GitLab Bot 🤖 mentioned in issue #580616 (closed) 3 weeks ago
+Dominic Harness@Dominic.Harness3 weeks ago
+
+     > Your role: Site Reliability Engineer   >   > Main workflows: Code reviews   **Overall Assessment**   - Would you prefer the new UI over current GitLab? Why?     - [ ] Yes     - [x] No     - [ ] Unsure   **What's Working Well**   * Fresh new design   **What Needs Fixing**   * *Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish)*   * Wasteful of precious screen space: MEDIUM / Having a Left, Top, and Right bar wastes a lot of space. The first thing I look at is padding and "empty" menu bars. Sadly having 3 menu bars means we are 3x the wasted space, the top and right bars will remain empty most of the time and now I simply get to look at a bar instead of code.   * No way to remove gitlab duo sidebar: MEDIUM / Have option to disable it, the entire right 3/8" of my window is completed wasted. If I don't use Gitlab Duo (which I don't), then I just have an entire wasted chunk of space on the right of my screen, it feels very much like I'm being forced to use a product that won't be flexible with existing AI workflows.   **GitLab Duo panel (Duo Agent Platform)**   - Do you use the GitLab Duo panel?     - [ ] Frequently     - [ ] Sometimes     - [ ] Rarely     - [x] Never   - If not using it, why?     I use AI in my IDE, it can be integrated both peer review, descriptions, basically everything without having to use the webui. AI Can be implemented into a pipeline as well with much deeper customization, so I have not found a practical use case. It is one of those tools that is "ok" at many things, but is not an expert at everything.   - How well does it integrate into with your workflow?     It does not at all, it mostly just takes up screen space and is distracting.   **Any other observations, missing features, workflow improvements, etc.**   * Not being able to adjust the left sidebar to how thick I want is a minor annoyance... I like to slide it to the left to maximize what code I can see etc... loosing that ability is nod ideal, especially when I see a lot of wasted padding and space in all the menu bars and main screen. Overall I feel the new look is just wasteful on screen space.   
+  *  
+  * Emily Bauman@emilybauman3 weeks ago     Developer     @Dominic.Harness - Your points about screen space with three menu bars and the Duo sidebar are solid concerns for code review workflows. The lost ability to customize sidebar width is a good point too. Thank you so much for sharing your feedback with us, we'll take these space efficiency concerns in account for future iterations.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Achraf EL AFFAS@a.elaffas3 weeks ago   I have a problem with the sidebar and top bar icons in the New UI, they keep disappearing for some reason.
+
+  * Chrome : 142.0.7444.60 (Official Build) (64-bit) (cohort: Control)
+  * OS : Windows 11 Pro (Version 24H2) (OS build 26100.6899)
+      Edited 3 weeks ago by Achraf EL AFFAS
+  *  
+  * Sascha Eggenberger@seggenberger3 weeks ago     Developer     @a.elaffas thanks for the feedback. Could you share a bit more about the issue so we can look into it? A screenshot would also be super helpful
+  * Achraf EL AFFAS@a.elaffas2 weeks ago     @seggenberger Thanks for replying. Sure, here is a screenshot that shows the issue I am having.           Edited 2 weeks ago by Achraf EL AFFAS
+  * Christian Skarby@cskarby1 week ago     We have the same problem. To us it doesn't happen all the time, only some of the times that a page is refreshed. Here showing the same page without and with the error:
+    * Chrome: Version 142.0.7444.175 (Official Build) (64-bit)
+    * OS: Ubuntu 22.04.5 LTS
+    * Server: GitLab Enterprise Edition v18.6.1-ee (Premium)
+  * Christian Skarby@cskarby1 week ago     The problem also shows up on the old UI (when user choses to disable the new UI):     Same page showing the icons with the old UI:     We have a single server installed with the official linux package for Ubuntu     Edited 1 week ago by Christian Skarby
+  * Christian Skarby@cskarby1 week ago     Further I am not able to reproduce the problem with missing icons, even with many page reloads, on Firefox 145.0.2 (64-bit) on Ubuntu 22.04.5 LTS     Edited 1 week ago by Christian Skarby
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Atthar Mirza@am1310073 weeks ago   I've got some general design feedback, I feel there's a lot of wasted empty space in the new layout. I prefer the older one, because my eyes don't have to wander around the window to find what I need, it's elegantly laid out with navigation on the left and "content" on the right. And I like the information density with the older layout, no large sections of just an empty blue-ish gradient.
+Kevin Ashton@ashtonkd3 weeks ago   Your role: Product Owner & Engineer   Main workflows: Epics/Issues/Boards, Merge Requests, Pipelines   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes - Seems like it has more potential for re-use vs. the "hovering" drawer.
+    * No
+    * Unsure
+  What's Working Well
+  * search interface is more obvious
+  * content and drawer each feel "complete" vs. the drawer "obscuring" the primary content
+  * much better use of space on ultrawide displays when using the new panels layout
+  What Needs Fixing
+  * Weird things are happening with browser history navigation (back/forward) - Using Firefox 145.0 (aarch64) (haven't tested other browsers)
+    * HIGH - From "Issues" list page: Clicking on the fill icon or issue ID in the drawer opens that issue as expected, however, going Back in history returns to only the list page (with no drawer). A second Back navigation then oddly returns to the list page with the selected issue in the drawer. This is the opposite of the expected back navigation order. Maintaining context when navigating back to a list or board + details panel is critical. (Some of the navigation problems might have been preexisting with the original drawer overlay, but it feels even more jarring now and preexisting or not, it breaks workflow context.)
+    * MEDIUM - Going Back to a page with ?show (drawer panel) seems to do a re-load which destroys the forward navigation browser history.
+  * With the new drawer display feeling more integrated, some of the original interface annoyances are more prominent:
+    * MEDIUM - It feels like I should be able to click+drag in the white space between the primary content panel and the detail/drawer panel to "resize" both panels by moving that divide. Not being able to is frustrating.
+    * MEDIUM - It is now unexpected when links in drawer content (such as tasks on an issue) open a new page. It now feels like that content should load into the drawer/details panel instead (where the link was clicked) or potentially even better: slide the existing panels to the left and open a new sub-details panel (visually, this would make the "detail" panel the new "primary" panel.) -- somewhat like MacOS Finder in "Columns" view.
+  * LOW - Other areas now feel like they should be using the panels interface and if feels a bit dis-joined that they're not. For example, the following areas would benefit from optionally displaying sub-element links in a details panel on the same page:
+    * viewing job logs from a pipeline page
+    * viewing registry details from the registries page
+    * viewing a file from the repository page
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  We'd like to, but "Bring Your Own Model" isn't available for "Duo Core", so we don't currently use Duo at all.
+  * How well does it integrate into with your workflow?
+  It doesn't integrate. The GitLab Duo Panel seems like it would mostly just take up space and get in the way.   Any other observations, missing features, workflow improvements, etc.   How will the GitLab Duo panel display work for self-managed instances with Duo disabled at the instance, Group or Project level? It feels like strong user frustration point to have the Duo Panel displayed when the features are disabled for the current context.   Edited 3 weeks ago by Kevin Ashton
+  * Last reply byAustin Regnery3 weeks ago
+
+Genesis Sanchez@gdarrel052 weeks ago
+
+     > Your role: Dev   >   > Main workflows: dev/ops   **Overall Assessment**   - Would you prefer the new UI over current GitLab? Why?     - [ ] Yes     - [ ] No     - [x] Unsure   **What's Working Well**   * *Brief bullet points*   **What Needs Fixing**   * Pagination is not working on commit history.   * *Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish)*   **GitLab Duo panel (Duo Agent Platform)**   - Do you use the GitLab Duo panel?     - [ ] Frequently     - [ ] Sometimes     - [ ] Rarely     - [ ] Never   - If not using it, why?   - How well does it integrate into with your workflow?   **Any other observations, missing features, workflow improvements, etc.**   
+  *  
+  * Chaoyue Zhao@ms.mondrian2 weeks ago     Maintainer     thanks @gdarrel05 for the report. this is regression caused by another work but the fix !212764 (merged) should've landed 6 hours ago, thanks to the amazing @slashmanov cc: @andr3
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Bruce Benson@bbensonredhat2 weeks ago
+
+     > Your role: Dav   >   > Main workflows: Dev   **Overall Assessment**   - Would you prefer the new UI over current GitLab? Why?     - [ ] Yes     - [X] No     - [ ] Unsure   **What Needs Fixing**   * MEDIUM - Egregious consumption of whitespace along with cartoon bubbles that consume even more whitespace is wasting my precious real estate. Gitlab is misapplying UX mantra from the web advertising industry, which seeks to take over the attention span of the viewer. This is exactly the opposite of what the UI/UX should do for a dev. This indicates that gitlab deeply misunderstands who their customer is and what they do. It also establishes what gitlab's view of the relationship between customer and gitlab is, in a really damaging way for gitlab.   
+  *  
+  * Emily Bauman@emilybauman5 days ago     Developer     @bbensonredhat - Thanks for the feedback. Your concerns about excessive whitespace and UX approaches that don't fit developer needs are valid points we should take into account. We'll look into these space usage and design concerns for future iterations.
+  * Bruce Benson@bbensonredhat2 days ago     Thanks so much for your consideration and response.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+n7800@n78002 weeks ago   Contributor   Regression   I use the keyboard a lot. In the old UI, I could immediately use Down/Up and PageUp/PageDown on an open page, but in the new one, I first have to click in the list to focus it.   When moving to another page (e.g. using the G, V shortcut), I have to click again before using the keys.
+
+  *  
+  * Emily Bauman@emilybauman5 days ago     Developer     @n7800 - Thanks for the feedback. The keyboard navigation issue you're describing is a real workflow problem. I can understand losing that immediate keyboard access when navigating between pages is frustrating. We'll look into fixing these focus and keyboard navigation issues for future iterations.     cc: @aregnery as this might be related to the panel infrastructure.
+  * Austin Regnery@aregnery4 days ago     Developer     @n7800 we have an issue for the Down/Up and PageUp/PageDown New UI: Unable to use system keyboard shortcuts... (#577384) • Unassigned.     We fixed the keyboard shortcuts in !212375 (merged)
+  * Steve Mokris@smokris2 days ago     Contributor
+    * [@n7800] In the old UI, I could immediately use Down/Up and PageUp/PageDown on an open page, but in the new one, I first have to click in the list to focus it.
+    * [@aregnery] we have an issue for the Down/Up and PageUp/PageDown https://gitlab.com/gitlab-org/gitlab/-/work_items/577384+s.
+    I get "Not Found" when I follow that link (is that issue marked Confidential?).     I did find Scrolling using keyboard doesn't work (#580678), though, which seems to describe the same problem.
+  * Austin Regnery@aregnery2 days ago     Developer     Yep sorry about that. I removed the confidentiality.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+n7800@n78002 weeks ago   Contributor   Regression   In the old UI, when an issue was open sideways, I could click anywhere (the gap to the left of the list, the right of the "Open/Closed/All" tabs, or the empty space in the left sidebar) and it would close. Now I can only do this by clicking the "X" button. This is inconvenient - it's small and located on the opposite side of the screen from the issue list.   I expect the "issue" (sidebar) to close when clicking anywhere outside of it.   * I'm talking about the case when the issue is displayed over the list - for this to happen, the left sidebar must be expanded.
+Alyssa Trinh@alyssatrinh2 weeks ago   Developer   design system feedback drawers now seem to be an inconsistent heights and widths. Some of them appear to take the entire content height. Some appear underneath breadcrumbs. Some have a shadowbox.   What's newIssue previewMerge request review buttonSettings > Repository > Branch rule   unsolicited thoughts a common UI convention in the industry is for drawers to take up the entire content area height. While this is disruptive, the nature of a drawer is already slightly disruptive and meant to surface information above the current UI. Placing a drawer underneath bread crumbs creates visual imbalance in the page, and suggests that breadcrumbs have a higher importance / visual hierarchy than the drawer content the UI is trying to surface.
+
+  * Last reply byMichael Le2 weeks ago
+
+Alyssa Trinh mentioned in issue #569507 (closed) 2 weeks ago
+tsia@tsia2 weeks ago   haven't seen this reported anywhere else but if we have a banner at the top then the buttons at the bottom (for example "Comment" or "Save" in merge requests) are cut off nor not visible at all:    
+
+  *  
+  * Austin Regnery@aregnery4 days ago     Developer     @tsia are you still seeing this? I am not able to reproduce.      
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Hawken Rives@hawken.rives2 weeks ago   In Safari for iPhone, scrolling the page no longer collapses the toolbar at the bottom.    
+Max Wittig@max-wittig2 weeks ago   Contributor   Really nice. Finally we moved the assignee and todo buttons to the right again like it was before the omnibar experiments. We've gone full circle, but I like it 😄
+laurent legaz@laurent.legaz2 weeks ago   Hello won't go down the path of "why are you doing the same redesign of your web client UI as it seems to be trending with your main concurrent owned by microsoft doing the same at around the same period of time", you do as well as you are pleased to.. and btw your design seem overall better tuned and less resources greedy than the reactJS one of GitHub. (By the "same" I mean same job : working on a already perfectly functional UI and well proven by time, on a large amount of different systems. But yeah I know, modernity.. at least you are trying to do it the right way, opposite to others I won't target too directly lmao)   That not being said I'm here to ask if it is normal that the scollbar on the right side is now bugged with the "new" design while trying to dropdown in a messy big amount of code in a PR review (merge request ? srsly ? wasn't it Pull Request before ? I have no motivation to start my CE GitLab and to check it myself)   Well I do not want to scroll using my wheel so I usually grab the scroll bar and not it is not working as it does before. The mouse cursor and the bar cursor are messed up and the thing jump and do not scroll smoothly as intended.   Regards,  laurent LEGAZ   Edited 2 weeks ago by laurent legaz
+
+  *  
+  * Austin Regnery@aregnery4 days ago     Developer     That not being said I'm here to ask if it is normal that the scollbar on the right side is now bugged with the "new" design while trying to dropdown in a messy big amount of code     Can you provide a screenshot or recording? The scrollbars should not be bugged.     merge request ? srsly ? wasn't it Pull Request before ?     @laurent.legaz it's always been merge request in GitLab 😄
+  * laurent legaz@laurent.legaz3 days ago     @aregnery I'm more used to CE version than online and maybe I renamed labels or things.. or just my memory is failing me again 😅     So I have that big "merge request" open for years now and in my memory (so maybe not so good) I could drag and drop the scroll lift from top to bottom scrolling all 36 modified files smoothly.     But now the mouse cursor jumps to the bottom of my screen (few inches/centimeters away of the scroll bar I was dragging to the point I sometime have to redrag the scroll cursor else I would stay stuck on the bottom of the screen with my mouse cursor.     Maybe I'm not very clear and my memory isn't as accurate as I thought it could be once and I'm sorry for that.     Also the screenshot won't help because I can't capture my mouse cursor on windows, maybe I can screencast If you want ?
+  * Austin Regnery@aregnery3 days ago     Developer     @laurent.legaz no worries, CE is applicable too. Yeah a screencast would be great.
+  * laurent legaz@laurent.legaz2 days ago     But I think it is my old config (old i7) and my impatience that is in cause, because it happens also here, on this thread, if I don't wait for every elements on the page to load the cursor and the scrollbar jump to only god knows where here too.     So I think as the diffs are loading I just want the scroll cursor to scroll everything too fast in my opened merge request (but still this MR was opened before and I don't have the memory of that annoying blocking and scrollbar cursor jumps but... still maybe my memory failing).     I add that I use Opera now (not GX), and didn't try on other browser (not that I'm not willing to, just do not want to be logged out here for convenience reason), BUT previously I was on Chrome (so I wanted to test on chrome but I have to take more time to test it and again it is not convenient => 3rd party sign in....).     screencast_opera     Edited 2 days ago by laurent legaz
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+n7800@n78002 weeks ago   Contributor   Regression   [New UI] Dark background for transparent user p... (#581191 - closed)   /cc @seggenberger
+
+  * Last reply byn78001 week ago
+
+n7800 mentioned in issue #581191 (closed) 2 weeks ago
+Philipp Ludwig@philippludwig2 weeks ago   I still miss the top navigation bar. The "new" sidebar still is confusing and it takes too long to find the things I want to navigate to, and the 2013-style round corners you now introduced do not help with that.
+Matthias Hörmann@mhoermann2 weeks ago   It really starts to feel as if the primary purpose of GitLab is just to be a designer's redesign playground with Git hosting coming a distant second place in priorities. Have you ever considered how much productivity is lost by having to rediscover every bit of functionality in the new UIs all the time?
+
+  *  
+  * Austin Regnery@aregnery4 days ago     Developer     @mhoermann we are definitely sensitive to the disruption it can cause. This recent change should not have made it harder to find all the same familiar functionality you're used to.     We are big supporters of git, both in contributions and in making sure functionality is integrated in to GitLab. Checkout our latest blog https://about.gitlab.com/blog/whats-new-in-git-2-52-0/
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Ryan Taylor@crtaylor2 weeks ago   Developer   The 18.6 docs indicate that the new UI is only available in .com and Self-Managed, but the history shows that it was enabled for .com, Self-Managed, and Dedicated       Edited 2 weeks ago by Ryan Taylor
+
+  *  
+  * Niklas van Schrick@Taucher20032 weeks ago     Developer     As far as I know, Dedicated is on a N-1 release which means that Dedicated instances are currently on 18.5 where the new UI is disabled. Therefore the docs are correct that the new UI will be enabled on Dedicated once these instances update to 18.6 when 18.7 is released.
+  * Ryan Taylor@crtaylor2 weeks ago     Developer     @Taucher2003 While I agree that GitLab 18.6 will be rolled out to Dedicated customers once 18.7 is released, I also think our documentation is intended to show what features are available for a specific version of GitLab     Thus, our 18.6 docs should be accurate for a Dedicated instance running 18.6, even if it is deployed to customers when 18.7 is available. This is the pattern elsewhere in our documentation site
+  * Niklas van Schrick@Taucher20032 weeks ago     Developer     Ohh, I see. I didn't catch that the "Offering" didn't include Dedicated. That does seem like a mistake
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+FC@zx802 weeks ago   Your role: admin, dev, teaching, ...   Main workflows: ?   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * Not sure.
+  What Needs Fixing
+  * HIGH on modern wide screens inside a web browser used for coding/reading doc the most important and needed space is on the vertical so that more useful code/discussions/... can be shown. However the new layout consumes one row for the seach bar and other stuff. There is plenty of horizontal space available, just let this stuff remain in the left colapsable column.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?     Why would I use it? Did I say that I wanted/needed an AI assistant to provide unhelpful advices based on allucinations? Please make this optional, the purpose of gitlab is not to provide yet another IA chatbot.
+  * How well does it integrate into with your workflow?     My workflow does not need it.
+  Any other observations, missing features, workflow improvements, etc.
+
+Mike Heyns@mike.heyns1 week ago   Your role: Administrator   Main workflows: Management   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * Moving todo, MRs, assignments to the top-right
+  * Left sidebar feels tidier
+  * New home page and merge requests dashboard are helpful
+  What Needs Fixing
+  * MEDIUM - Disabled Duo entirely - elements still visible for our team.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  Too expensive and unreliable. Not approved by our security team.
+  * How well does it integrate into with your workflow?
+  It does not integrate at all.   Any other observations, missing features, workflow improvements, etc.   How do we remove these elements? When we disable the wiki feature, we do not see a wiki button. We have disabled duo but our users still see duo related UI.    
+
+Nhat@csqnhat1 week ago   Your role: Code reviewer   Main workflows: Review MRs   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * More rounded corners
+  What Needs Fixing
+  * MEDIUM Collapsed sidebar takes up space with no option to hide icons
+  * HIGH Letterbox/panel layout feels constrained, unnatural and looks very bad on low-resolution devices
+      GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  Not included in Free tier
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.   None   Please keep the old UI or at least get rid of
+  * Top & right side bars
+  * Paddings around screen edge
+  Edited 1 week ago by Nhat
+
+Henryk Paluch@hpaluch1 week ago   Contributor   Please give me back original GitLab 16 design - last that was well polished and usable. Please revert both:
+
+  * #426893 (closed)
+  * #577554 (closed)
+  That's all I'm asking for...   Edited 1 week ago by Henryk Paluch
+
+Cyril COLIN@cyril.colin.pellenc1 week ago   Your role:   Developper   Main workflows:   Pushing code, reviewing merge requests   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * The global search appears to be an improvement
+  What Needs Fixing
+  * MEDIUM: remove the AI slop
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  Because LLMs are garbage
+  * How well does it integrate into with your workflow?
+  Poorly   Any other observations, missing features, workflow improvements, etc.   It would be nice if the "Remember me" checkbox on the login page actually worked, I shouldn't have to log back in every single day.
+
+Andrea Bontagnoli mentioned in merge request !213854 (merged) 1 week ago
+Hexxon@Hexxon1 week ago   Can you tell me, WHY is the sidebar color in the "Light" theme is DARKER than the content, but in the "Dark" theme, the sidebar color is LIGHTER than the content color?   This feels just wrong and the inverse of what it should be. Look at every other Editor and IDE please?   Who designed this?           The colors should be switched so that the "Content" has the lighter color than the Menu...   Edited 1 week ago by Hexxon
+
+  * Last reply byAustin Regnery4 days ago
+
+Rich Lott@artfulrobot1 week ago   Your role: open source contributor - submit, read and discuss issues, prs, etc.   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  The opens-in-side-panel thing is really annoying, fiddly, and slows me down. And it generates URLs like   https://gitlab.com/gitlab-org/gitlab/-/issues?show=eyJpaWQiOiI1ODE5MDUiLCJmdWxsX3BhdGgiOiJnaXRsYWItb3JnL2dpdGxhYiIsImlkIjoxNzc1ODU3MTR9   which are much less helpful when copy-pasted than the old format: https://gitlab.com/gitlab-org/gitlab/-/issues/577554   GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?     The costs of "AI" do not balance the benefits. Things like a livable planet, democracy, equality, enough and affordable water and power - I value those over some sycophantic autocomplete.     The inclusion of this as a core feature makes me promote Forgejo.
+
+Melroy van den Berg@melroy891 week ago   Contributor   If I could provide feedback for GitLab 18.6, it would be this issue: #581671 (closed)
+Josh Huitema@jhuitema1 week ago   Your role: Software Developer, Pixomondo   Main workflows: MRs, CI/CD, Web IDE, Issues, Epics   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  Why: Too much screen space is wasted. See What Needs Fixing for more details.   What's Working Well
+  * I could see why opening issues in side panels would be helpful on wide displays. On my measly 1080p monitor it gets in the way more than helps though.
+  * Being able to display more project related options in the left sidebar is a good idea.
+  What Needs Fixing
+  * MEDIUM Too much screen space is wasted. This change further reduces the amount of useful screen real-estate because of the search bar and the AI panel.
+    * Moving the search bar only makes things worse as all the space to the left and right of it is wasted. There is also no need for it to be any wider than the sidebar where it used to live since it pops up a new dialog anyways. My suggestion would be that it goes back to live on the sidebar but lives next to the site log at the very top. It also doesn't need to be a text box (since it is a new dialog) and could just be a 🔍 icon.
+    * I don't mind having the create/issues/mrs/workitems buttons and profile icon live on the right side of the screen but they shouldn't be on a mandatory top-row with the search bar. They could easily go down one row and live on the right side of the repo breadcrumbs bar.
+  * MEDIUM The "Open in Side Panel" feature should be togglable in settings so those of us without ultra-wide monitors can disable it.
+  * MEDIUM The GitLab Duo right bar should be hidable in settings so those who don't want to use it can hide it completely. Otherwise it is permanent wasted screen space.
+    * It also doesn't need to have all three buttons visible at all times. Having a single button beside the User icon to open the chat pane would still work as the "New Chat" and "Chat History" buttons could be moved onto the chat pane that is created. That way only the bare minimum screen real-estate is given to the AI chat unless the user wants it.
+  * LOW I miss the clear separation between sections in the left sidebar. Having a line above the "What's New" button would help differentiate it from the project specific things in the side bar.
+  * LOW Having the "Collapse sidebar" option as a full row in the sidebar rather than a little button is unfortunate. I would much rather it go back to being an icon-only button and go back to where it was in the old UI beside the site icon.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+    * Never found any AI agents useful
+  * How well does it integrate into with your workflow?
+    * It doesn't
+  Any other observations, missing features, workflow improvements, etc.
+  * It would be helpful to add an Appearance section into the "User Settings" page for the toggles of all these options
+  * The "What's new", "Help", and Admin buttons don't need to always be visible and could be moved to the menu when clicking on the user icon. This would further increase the amount of space in the left sidebar for project-specific actions.
+  * The header in the left sidebar containing "Project" (and "Group", "User Settings", "Admin", etc) could be moved up beside the site icon or removed entirely to further increase the space for project-specific options.
+  Here is a UI mockup of what the changes above would look like:       Edited 1 week ago by Josh Huitema
+  *  
+  * Austin Regnery@aregnery4 days ago     Developer     @jhuitema lots of great feedback so thanks for the thorough breakdown.     Just FYI, you can tweak if the issues or epics list will open in a side panel from the display options dropdown menu           The "What's new", "Help", and Admin buttons don't need to always be visible and could be moved to the menu when clicking on the user icon.     These sound reasonable on the surface, as with many UI challenges. Putting What's new and Help behind the user icon would make them inaccessible to visitors of GitLab. As for the Admin button, our Administrators have been very vocal about it being very important it be exposed.     That's not to say there aren't better solutions possible. There certainly are and we continue to iterate as always.
+  * Josh Huitema@jhuitema4 days ago     Thanks for following up     Just FYI, you can tweak if the issues or epics list will open in a side panel from the display options dropdown menu     Ah, I didn't know that dialog existed. I'll take a look     These sound reasonable on the surface, as with many UI challenges. Putting What's new and Help behind the user icon would make them inaccessible to visitors of GitLab. As for the Admin button, our Administrators have been very vocal about it being very important it be exposed.     That's unfortunate but thanks for explaining
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Ben Bodenmiller@bbodenmiller1 week ago   Developer   The welcome to the new UI popup tells you that you have access to GitLab duo, even if in fact your instance does not have that enabled
+
+  *  
+  * Ben Bodenmiller@bbodenmiller1 week ago     Developer      
+  * Max Wittig@max-wittig1 week ago     Contributor     Same here!
+  * Austin Regnery@aregnery4 days ago     Developer     @bbodenmiller thanks! We will either double down and refine the logic or remove it altogether soon.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Andrea Bontagnoli mentioned in issue #582019 (moved) 1 week ago
+Enrico Scholz@ensc1 week ago   Your role: Software Developer + gitlab admin   Main workflows: MR, CI   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * Brief bullet points
+  What Needs Fixing
+  * actions and information are scattered around the whole screen; you have to move the mouse / eyes the whole distance from left to right
+  * too much space wasted with the search field on the top; its position and this of the buttons (which are now on the right) were fine in the old layout
+  * space wasted with the border around the main area; for what is this? just to look cool?
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+    * I do not have such a panel
+  Any other observations, missing features, workflow improvements, etc.
+  * it should be possible to set the default mode when creating a new issue (modal dialog vs. fullscreen); modal is too small for me and I prefer fullscreen
+  * UI should respect user preferences of font size; when I set a default font size of 12px in the browser setup, I expect that the main content (e.g. the text which I am currently writing or the issue description or the other comments) is in a 12px font, not a 10.5 px one.
+
+Andrei Tomin@kwork1981 week ago
+
+     > Your role: DEVELOPER DEV OPS   >   > Main workflows:   **Overall Assessment**   - Would you prefer the new UI over current GitLab? Why?     - [X] Yes     - [ ] No     - [ ] Unsure   **What's Working Well**   * *Brief bullet points*   **What Needs Fixing**   Good instraction how to use new features, no instraction :disappointed:   * *Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish)*   **GitLab Duo panel (Duo Agent Platform)**   Good idea!   - Do you use the GitLab Duo panel?     - [ ] Frequently     - [ ] Sometimes     - [ ] Rarely     - [X] Never   - If not using it, why?    Didn't know i see first time!   - How well does it integrate into with your workflow?    Will reply later!   **Any other observations, missing features, workflow improvements, etc.**   GitLab is a powerful platform, but it really suffers from the lack of clear documentation and intuitive navigation. Many features are hidden behind unclear menus, and it’s often difficult to find what you actually need without searching the internet first. The interface feels overloaded and not beginner-friendly at all — even simple actions take more time than they should.   However, the new features are really impressive. The recent updates show that the team is moving in the right direction: the improvements to CI/CD, the new automation capabilities, and the enhanced security tools are excellent. If GitLab manages to make the UI simpler and provide proper instructions for every feature, it could easily become the best DevOps platform on the market.   
+
+Antoine Beaupré@anarcat1 week ago   Contributor   Your role: user   Main workflows: issue triage, coding   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * i like how that menu was moved to the top-right, nice move! makes the left menu more coherent and cohesive
+  What Needs Fixing
+  * MEDIUM (annoying) - the breadcrumb seems like a waste of real estate, as has been mentioned earlier here. it could easily be moved up next to the search bar, and collapsed to a drop-down in mobile
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? i think LLMs are a bad idea
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.   I understand UX work like this is a a huge adoption challenge, and encourage you to keep going!
+  * Last reply byAustin Regnery4 days ago
+
+n7800@n78001 week ago   Contributor   In incidents (not issues), you can still collapse the sidebar to a narrow view. I'd also like to see it returned for issues!   Especially useful for issues that open in the sidebar list!   Regression   However, in the new UI, it appears far from the edge. And when expanded, it creates empty space and obscures content:   Old UINew UI (collapsed)New UI (expaned)
+
+  *  
+  * n7800@n78001 week ago     Contributor     As a reminder, I'm currently using the old Chrome 109.0.5414.120. Can anyone confirm the issue in newer versions and other browsers?     /cc @seggenberger
+  * Austin Regnery@aregnery4 days ago     Developer     @n7800 thanks for reporting. I tried to reproduce the problem with an incident, and I couldn't. Can you double check if this is still happening for you? I'm wondering if it is OS related. I tested on MacOS.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Tim Schneider@SDKde-timschneider1 week ago   I like the UI changes. However, could you please tell me if there is a feature flag to stop the 'Welcome to the new UI' modal from showing? Having no save state if it was already shown and as such prompting it every time someone logs in is a big annoyance.   Edited 1 week ago by Tim Schneider
+
+  *  
+  * Austin Regnery@aregnery4 days ago     Developer     @SDKde-timschneider reasonable ask. We will either start saving that locally, or just remove it altogether very soon.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Daniel Bretoi@db1 week ago   it's incredibly difficult to find something commonplace like changing email or changing password. Do you support passkeys? who knows. I can't find anything. GL wasn't like this before
+Andrea Bontagnoli mentioned in issue #582160 1 week ago
+Max Wittig@max-wittig1 week ago   Contributor   Hi! We're on self-hosted and we don't have Duo, so this could be confusing for users:    
+
+  *  
+  * Austin Regnery@aregnery4 days ago     Developer     @max-wittig you're right that is frustrating. I anticipate this modal won't be in production much longer so sit tight.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Andrew Seales@andrew.seales1 week ago   Hi,   We just got the new UI this morning (18.6.1) and it's so much better than the last UI, in particular the performance is great. The old UI was quite laggy at times but this new one is super fast.   Thanks!
+sigmatics@sigma671 week ago   I really like the new UI and its design direction, but as others have said, there is too much dead space, especially in the top bar.   To the left and right of the search bar there is now empty space. Previously, this was used for the navigation path, which was fine, but now the bar just sits there staring in my face, when it was doing just fine previously on top of the side bar.
+Maximilian Riemensberger@mriemensberger6 days ago   Your role:   Main workflows:   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * It largely works.
+  What Needs Fixing
+  * HIGH: The right side item view is not resizable. I use a relatively small but high-resolution screen (laptop). I have to do manual CSS overrides to make it work. I need the option to resize that thing on the fly and keep the setting for each device individually.
+  * MEDIUM: The behavior is very inconsistent with regard to when items are opened in the right side item view and when they are opened as a new page. It seems to depend on the current view (list/board/other item), the type of link (child item list, related item list, regular link in comment, description, custom view), and the type of the item (work item vs MR). This is annoying since I now have to keep all those behaviors in my head to anticipate what happens if I click somewhere. I would really appreciate it if the behavior were consistent across all kinds of items (including MR), views, and types of links. I would not mind if it were configurable.
+  * MEDIUM: I cannot choose whether I get the side-by-side items or the right side overlays the list/left side item. I would like to configure this on a per-device basis.
+  * MEDIUM: I rarely use the search bar on the top since GitLab search is usually too slow and not that helpful. I would like to have this part of the screen be useful, i.e., the item should render to the top and the search bar and the few icons on the top right could easily be part of the left nav pane.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.
+     
+  Edited 6 days ago by Maximilian Riemensberger
+  * Last reply byAustin Regnery4 days ago
+
+Niklas van Schrick@Taucher20035 days ago   Developer   I noticed that the new UI has some cases where it does not work on mobile:   parallel Jobs in the Pipeline detail page: The dropdown to select the job is going out of the viewport  On the advanced search page, I can't switch to a different search category   problemold uinew uiparallel Jobs in PipelinesAdvanced Search Page
+
+  *  
+  * Austin Regnery@aregnery4 days ago     Developer     @Taucher2003 use the Filters button to find those options on advanced search.
+  * Niklas van Schrick@Taucher20033 days ago     Developer     @aregnery Aha! Thats absolutely not where I expected them. The Advanced Search problem is solved with that, but the problem with the parallel job dropdowns on the pipeline detail page remains. Those dropdowns are not usable on mobile when they clip out of the viewport. I always have to disable the new UI for that and when the toggle gets removed, this is going to be a problem because then there is no workaround
+  * Austin Regnery@aregnery3 days ago     Developer     @Taucher2003 gotcha! I see the problem too, but I am seeing in both the versions of the UI. It might jus be your device is at a breakpoint that happens to work in the old UI but not the new. Either way it needs to be fixed.     CleanShot_2025-12-03_at_11.44.08     cc: @veethika
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Jamie Barnes@barney91825 days ago
+
+     > Your role: Application Developer   >   > Main workflows:   **Overall Assessment**   - Would you prefer the new UI over current GitLab? Why?     - [X] Yes     - [ ] No     - [ ] Unsure   This update takes it closer to how it used to be. The collapsible sidebar gives more horizontal space. Search, to-do and merge request actions moved to an area that was empty before makes better use of the available space.   **What's Working Well**   * Admin and todo buttons have been moved back to where they should be   * Sidebar can once again be collapsed   * Dark mode looks amazing   **What Needs Fixing**   * MEDIUM To-do list should have the 'Mark all as completed' button added back   * MEDIUM Open merge request list should show the number of thumbs-up responses as it did before   * MEDIUM The filter on the project list should work differently than the search, it should filter the project list on keyup and only consider the project name - hitting enter twice just to filter the list for a given project name is cumbersome.   **GitLab Duo panel (Duo Agent Platform)**   - Do you use the GitLab Duo panel?     - [ ] Frequently     - [ ] Sometimes     - [ ] Rarely     - [X] Never   - If not using it, why? Just not into it.   - How well does it integrate into with your workflow?   **Any other observations, missing features, workflow improvements, etc.**   
+  Edited 5 days ago by Jamie Barnes
+  * Last reply byJamie Barnes4 days ago
+
+Alistair A. Israel@aisrael5 days ago   Your role: user   Main workflows: Gitlab CI   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * Looks cleaner
+  What Needs Fixing
+  * HIGH - I can't find the way to change my password and/or 2FA settings anywhere
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? Am just using a free account.
+  * How well does it integrate into with your workflow? -n/a-
+  Any other observations, missing features, workflow improvements, etc.   Edited 5 days ago by Alistair A. Israel
+
+LeLutin@LeLutin5 days ago   Your role: Systems administrator   Main workflows: kanban dashboard for issues, using gitlab for git dev and wiki + CI   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * the disappearing left panel was confusing and kind of annoying. I'm glad that it's gone
+  * the visual integration for issue pane pop up is better now. although it's still taking a lot of space and I wish I could just open a new tab instead of getting the popup pane.
+  What Needs Fixing
+  * MEDIUM: somehow the automatic table of contents on wiki pages (on the right side) on our self-hosted instance have disappeared. only the in-page [[**TOC**]] tokens are rendered.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+    * No interest in AI features. At all. Everyone adds them and they just get in the way and add bloat to UI
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.   Edited 5 days ago by LeLutin
+  * Last reply byAustin Regnery4 days ago
+
+sasik520 sasik520@sasik5204 days ago   Your role: Software Developer   Main workflows: code review, running / checking pipelines, access management, browse files/commits   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * No, definitely no. It looks odd, in theory, very little changes, but in practice, the top bar change is driving me nuts; it catches 99% of my attention.
+  What's Working Well
+  * Brief bullet points
+  * I'm generally happy with the UI, excluding the newest one. I liked the most the one before the previous rework 1 or 2 years ago but eventually, I got used to what we had before this new ui.
+  What Needs Fixing
+  * Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish)
+  * non-ui stuff: CI pipelines need polishing, e.g. spec.inputs variable access via json
+  * MEDIUM it's extremely annoying that changing the target branch when creating a merge request via .../merge_requests/new?merge_request[source_branch]=xyz, changing the target branch requires page refresh. It used to be a select 10 years ago and this (very common, in my case) operation was way easier and less annoying.
+  * MEDIUM this template needs fixing too; it is incredibly inconsistent and hard to use.
+  * HIGH GitLab designers should start honoring their users muscle memory and habits
+  * LOW suggestions in merge request comments are generally a great feature. The could be polished though, e.g. multiline suggestions could be easier to prepare and the whole feature could be easier to discover.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Never
+  * If not using it, why?     I don't have access (self-managed instance)
+  * How well does it integrate into with your workflow?     N/A
+  Any other observations, missing features, workflow improvements, etc.   At least thank you for leaving the possibility to switch off the New UI. Please, just please, keep it forever.
+  * Last reply byAustin Regnery4 days ago
+
+Eduardo Sanz García@eduardosanz4 days ago   Maintainer   I think the stickiness of the flash messages are lost due to the new UI: https://gitlab.com/gitlab-org/gitlab/-/blob/master/app/views/layouts/_flash.html.haml#L7   I may be wrong.
+Michael Le mentioned in epic /gitlab-org#832 4 days ago
+Γιώργος Τσιαμασιώτης@gtsiam4 days ago   Role: Developer   Main workflows: Code browsing, Code review, Pipelines   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No. Definite no.
+    * Unsure
+  What's Working Well
+  * Nothing I particularly like honestly.
+  What Needs Fixing
+  * HIGH The scroll bar is no longer at the edge of the window. This means I need to aim carefully to hit it with the mouse. This is beyond annoying, it actively slows me down.
+  * MEDIUM In some pages (such as this issue), the scroll bar can disappear behind other elements (such as when scrolling to the top of this issue).
+  * HIGH Typing in issue comments is laggy, even when using the markdown editor. There's a delay between typing and a character appearing. Typing at normal speed causes a bunch of characters to appear all at once every few seconds.
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  I don't have access to it, or any particular interest to lock myself in.
+  * How well does it integrate into with your workflow?
+  It doesn't. Only use case I've ever had for these agents is as advanced search in code bases I don't know much about. That doesn't appear to be what you're aiming it towards, so I don't care.   Any other observations, missing features, workflow improvements, etc.
+  * The scroll bar not being at the edge of the window is a huge deal breaker for me.
+  * Panel/window-based web apps are among some of the worst I've ever had the displeasure of using. Don't emulate the style for gitlab, please.
+  * We don't need more AI slop. AI is a decent tool for search. But we don't need more ways to generate bad code.
+
+Isaac Abrahamson@isaac-abrahamson4 days ago   What Needs Fixing
+
+  * MEDIUM (annoying)
+  In the new MR page and the compare revisions page, the diff highlighting is only in the gutter. The green/red background should go all the way across like it does in other diff views.   This is really annoying because you can't get a proper diff of your changes until you've made an mr       Edited 4 days ago by Isaac Abrahamson
+  * Last reply byStanislav Lashmanov3 days ago
+
+Italo Maia@italo.maia3 days ago   I've found an issue with the text editor; if you type the text below:   Hello foo hi `` hello hello   Then move your cursor after the second ` and type the "space" key, the formatting breaks.
+mon-jai@mon-jai3 days ago   Your role: CS Student   Main workflows:   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * All
+  What Needs Fixing
+  * Include priority: HIGH (blocks work) / MEDIUM (annoying) / LOW (polish)
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why?
+  * How well does it integrate into with your workflow?
+  Any other observations, missing features, workflow improvements, etc.
+
+Nikita Karamov@kytta1 day ago   Your role: Software developer   Main workflows: MR, CI   Overall Assessment
+
+  * Would you prefer the new UI over current GitLab? Why?
+    * Yes
+    * No
+    * Unsure
+  What's Working Well
+  * it looks pretty, I won't lie
+  * profile in top left corner makes sense
+  * collapsed sidebar with icons is nice!
+  What Needs Fixing
+  * MEDIUM the sidebar eats away at my vertical space. Seriously, we all have wide monitors, some even ultrawide. We all have horizontal space to spare, but very little vertical space. The sidebar is peak UI design, the header — not so much
+  GitLab Duo panel (Duo Agent Platform)
+  * Do you use the GitLab Duo panel?
+    * Frequently
+    * Sometimes
+    * Rarely
+    * Never
+  * If not using it, why? I have never got any use out of AI assistants. The code they produce is garbage, and agentic coding takes the fun out of coding
+  * How well does it integrate into with your workflow? N/A
+  Any other observations, missing features, workflow improvements, etc.
+
+Marek Marczykowski-Górecki@marmarek1 day ago   Did the option to switch to the old UI just went away? #577554 (comment 2880978244) is a deal-breaker for me - until fixed, I need to use the old version.
+
+  *  
+  * Austin Regnery@aregnery1 day ago     Developer     The pipeline view will be fixed soon @marmarek
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Corentin Mors@corentin.subnoto1 day ago   Hello,   Is there a way to remove the new top bar with the giant search? It's taking a lot of space and is useless 99% of the time.       old UI was more efficient by condensing info on the left
+
+  *  
+  * Austin Regnery@aregnery1 day ago     Developer     It might feels useless in your case but that real estate is used to display other elements under different conditions. It serves a structural purpose of displaying global actions, but we have plans down the road to better utilize the space.
+  * The discussion in this issue is locked. Only project members can comment. Learn more.
+
+Florent Rougon@frougon1 day ago   Hello,   As many already said, reviewing diffs with the new UI is horrible. Vertical space is taken by mostly useless elements; what remains for the diff is far from sufficient.   I had tried the new UI and switched back to the previous one because of this. Today, I see the new one is being forced upon me. :-((   Edited 1 day ago by Florent Rougon
+Jessie Arellano@jessie.arellano1 day ago   Please reinstate the toggle for the old UI. The new interface has made pages such as viewing pipelines incredibly painful to navigate. I know it has been mentioned several times, but it has made looking at diffs a lot more difficult especially on a wide-screen monitor.
+Spencer Burris@s.burris1 day ago   Getting surprised by a forced UI change is not how I wanted to start my day. Please readd the toggle.
+Austin Regnery set status to Complete 1 day ago
+Austin Regnery closed 1 day ago
+Austin Regnery@aregnery1 day ago   Developer   Thank you everyone for sharing your thoughts and experiences with us. I have personally read every message in this issue, and I genuinely appreciate the time you've taken to provide detailed feedback about the navigation changes.   I want to acknowledge that this transition has been challenging for some of you, and your concerns are valid. While the data showed a low opt-out rate (<1%), I recognize that metrics don't capture the full picture of how changes impact individual workflows and preferences. For those who preferred the previous UI, I understand if this wasn't the outcome you hoped for.   The new UI is now the standard experience moving forward. This decision wasn't made lightly, and maintaining two parallel UI structures long-term would significantly impact our ability to iterate and improve GitLab for everyone. That said, we're committed to addressing the remaining bugs and continuing to refine the experience based on your feedback.   Many of the ideas shared here are valuable, and we're actively reviewing them for future iterations. Your input directly shapes how we prioritize improvements, so please continue sharing specific pain points or suggestions.   Thank you for your patience and for being part of this community
+🤖 GitLab Bot 🤖 changed the description 1 day ago ·
+Austin Regnery locked the discussion in this work item 1 day ago
+Austin Regnery changed the description 1 day ago ·
+
+
+The discussion in this issue is locked. Only project members can comment. Learn more. try again
